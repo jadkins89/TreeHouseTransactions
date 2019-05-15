@@ -4,4 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+import './node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './src/components/css/layout.css';
+import './src/components/css/header.css';
+import './src/components/css/home.css';

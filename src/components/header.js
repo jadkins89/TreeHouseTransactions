@@ -1,35 +1,34 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { Component } from "react"
+import { Navbar, Nav } from "react-bootstrap"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+
+class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeKey: window.location.pathname
+    }
+  }
+
+  render() {
+    return (
+      <Navbar collapseOnSelect expand="md" className="navbar-custom" bg="custom">
+        <Link to="/" className="navbar-brand">{ this.props.siteTitle }</Link>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+          <Nav id="link-container" className="ml-auto" activeKey={ this.state.activeKey }>
+            <Nav.Link href="/">home</Nav.Link>
+            <Nav.Link href="/about">about</Nav.Link>
+            <Nav.Link href="/services">services</Nav.Link>
+            <Nav.Link href="/reviews">reviews</Nav.Link>
+            <Nav.Link href="/contact">contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+  )}
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

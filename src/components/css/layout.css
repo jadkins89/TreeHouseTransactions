@@ -1,3 +1,11 @@
+/* .navbar-custom {
+  background-image: url('../images/blue-texture.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -367,16 +375,6 @@ dl {
   margin-bottom: 1.45rem;
 }
 dd {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
-p {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;

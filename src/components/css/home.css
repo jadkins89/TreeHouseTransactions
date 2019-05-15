@@ -1,0 +1,47 @@
+.link-boxs {
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  display:inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin: 20px;
+}
+
+#box-1 {
+  background-image: url('../../images/forest-1.jpg');
+}
+
+#box-2 {
+  background-image: url('../../images/forest-2.jpg');
+}
+
+#box-3 {
+  background-image: url('../../images/forest-3.jpg');
+}
+
+#box-4 {
+  background-image: url('../../images/forest-4.jpg');
+}
+
+.link-box {
+  display: flex;
+  align-items: center;
+  height: 90%;
+}
+
+.link-body {
+  font-family: Source Sans Pro;
+  font-size: 40px;
+  font-variant: small-caps;
+  color: white;
+  margin: auto;
+}
+
+.link-content {
+  font-family: Source Sans Pro;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  margin: auto;
+}
