@@ -5,11 +5,13 @@
 .navbar-dark .navbar-brand {
   font-family: Abril Fatface;
   font-size: 28px;
-  color: white;
+  color: rgba(46, 204, 113, 1);
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  font-family: Abril Fatface;
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  font-weight: 400;
   font-variant: small-caps;
   color: rgba(0,255,255,0.7);
   padding-right: 50px;
@@ -25,4 +27,8 @@
 
 .navbar-dark .navbar-nav .nav-link.active {
   color: white;
+}
+
+.navbar-dark .navbar-brand .nav-link.active {
+  color: rgba(46, 204, 113, 1);
 }
