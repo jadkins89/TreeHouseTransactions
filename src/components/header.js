@@ -1,24 +1,16 @@
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
 import PropTypes from "prop-types"
-import React, { Component } from "react"
+import React from "react"
 import { Navbar, Nav } from "react-bootstrap"
 
 
-class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeKey: window.location.pathname
-    }
-  }
-
-  render() {
-    return (
-      <Navbar collapseOnSelect expand="md" className="navbar-custom" bg="custom">
-        <Link to="/" className="navbar-brand">{ this.props.siteTitle }</Link>
+const Header = ({siteTitle}) => (
+      <Navbar collapseOnSelect expand="md" className="navbar-custom" bg="custom" variant="dark">
+        <Link to="/" className="navbar-brand">{ siteTitle }</Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-          <Nav id="link-container" className="ml-auto" activeKey={ this.state.activeKey }>
+          <Nav id="link-container" className="ml-auto" activeKey={ window.location.pathname }>
             <Nav.Link href="/">home</Nav.Link>
             <Nav.Link href="/about">about</Nav.Link>
             <Nav.Link href="/services">services</Nav.Link>
@@ -27,15 +19,6 @@ class Header extends Component {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-  )}
-}
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
+)
 
 export default Header
