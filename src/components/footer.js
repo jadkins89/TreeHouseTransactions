@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 const Footer = () => (
-  <div>
+  <div className="bottom-container">
     <div className="color-bar"></div>
     <div className="bottom-bar">
       <div>

@@ -4,6 +4,12 @@
   background-color: rgba(46, 204, 113, 1);
 }
 
+.bottom-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .bottom-bar {
   height: 200px;
   width: 100%;
