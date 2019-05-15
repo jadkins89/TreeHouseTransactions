@@ -15,10 +15,10 @@ const IndexPage = () => (
     <h1>The Greatest Website Ever</h1>
     <p>Give me all your money.</p>
     <p>You won't regret it.</p>
-    <Linkbox title="about" description="Learn about Deena" id="box-1" img="forest-1.jpg" />
-    <Linkbox title="services" description="What we do" id="box-2" img="forest-2.jpg" />
-    <Linkbox title="reviews" description="You're going to like us" id="box-3" img="forest-3.jpg" />
-    <Linkbox title="contact" description="Get in touch" id="box-4" img="forest-4.jpg" />
+    <Linkbox title="about" description="Learn about Deena" className="box-1" img="forest-1.jpg" />
+    <Linkbox title="services" description="What we do" className="box-2" img="forest-2.jpg" />
+    <Linkbox title="reviews" description="You're going to like us" className="box-3" img="forest-3.jpg" />
+    <Linkbox title="contact" description="Get in touch" className="box-4" img="forest-4.jpg" />
   </Layout>
 )
 
