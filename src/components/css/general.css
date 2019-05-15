@@ -7,7 +7,7 @@
 .banner {
   font-family: Abril Fatface;
   font-style: italic;
-  font-size: 52px;
+  font-size: 48px;
   font-variant: small-caps;
   color: white;
 
@@ -16,6 +16,12 @@
       -ms-animation: fadein 1.5s; /* Internet Explorer */
        -o-animation: fadein 1.5s; /* Opera < 12.1 */
           animation: fadein 1.5s;
+}
+
+@media (min-width: 600px) {
+  .banner {
+    font-size: 70px;
+  }
 }
 
 @keyframes fadein {

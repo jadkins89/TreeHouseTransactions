@@ -1,0 +1,28 @@
+.color-bar {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(46, 204, 113, 1);
+}
+
+.bottom-bar {
+  height: 200px;
+  width: 100%;
+  background-color: rgba(46, 49, 49, 1);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.bottom-content, .bottom-content:hover {
+  font-family: Source Sans Pro;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+
+#business-name {
+  color: rgba(46, 204, 113, 1);
+}
