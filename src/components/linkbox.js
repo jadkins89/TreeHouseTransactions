@@ -2,9 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
-const Linkbox = ({ title, description }) => (
+const Linkbox = ({ title, description, id }) => (
   <Link to={"/" + title}>
-    <div className="link-boxs" id="box-1">
+    <div className="link-boxs" id={id}>
       <div className="link-box">
         <div style={{ width: `100%`}}>
           <p className="link-body">{title}</p>
@@ -18,6 +18,7 @@ const Linkbox = ({ title, description }) => (
 Linkbox.propTypes = {
   title: PropTypes.node.isRequired,
   description: PropTypes.node.isRequired,
+  id: PropTypes.node.isRequired
 }
 
 export default Linkbox
