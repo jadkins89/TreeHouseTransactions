@@ -10,8 +10,10 @@ const Contact = () => (
     <div className="jumbotron jumbotron-fluid box-4">
       <p className="banner">contact</p>
     </div>
-    <h1>Hi from the Contact Page</h1>
-    <p>Get in touch!</p>
+    <div className="content">
+      <h1>Hi from the Contact Page</h1>
+      <p>Get in touch!</p>
+    </div>
   </Layout>
 )
 

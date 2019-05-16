@@ -10,8 +10,10 @@ const Reviews = () => (
     <div className="jumbotron jumbotron-fluid box-3">
       <p className="banner">reviews</p>
     </div>
-    <h1>5 Stars for life!</h1>
-    <p>PSA: We left out the bad ones.</p>
+    <div className="content">
+      <h1>5 Stars for life!</h1>
+      <p>PSA: We left out the bad ones.</p>
+    </div>
   </Layout>
 )
 

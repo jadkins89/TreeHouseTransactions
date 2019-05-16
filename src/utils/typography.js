@@ -53,6 +53,12 @@ const typography = new Typography({
       '400',
     ],
   },
+  {
+    name: 'Montez',
+    styles: [
+      '400',
+    ],
+  },
 ],
 })
 

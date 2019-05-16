@@ -10,8 +10,10 @@ const Services = () => (
     <div className="jumbotron jumbotron-fluid box-2">
       <p className="banner">services</p>
     </div>
-    <h1>Hi from the Services Page</h1>
-    <p>You know Deena's got you covered.</p>
+    <div className="content">
+      <h1>Hi from the Services Page</h1>
+      <p>You know Deena's got you covered.</p>
+    </div>
   </Layout>
 )
 

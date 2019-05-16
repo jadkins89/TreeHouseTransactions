@@ -15,17 +15,27 @@
 
 .box-2 {
   background-size: cover;
+  background-position: center;
   background-image: url('../../images/forest-2.jpg');
 }
 
 .box-3 {
   background-size: cover;
+  background-position: center;
   background-image: url('../../images/forest-3.jpg');
 }
 
 .box-4 {
   background-size: cover;
+  background-position: center;
   background-image: url('../../images/forest-4.jpg');
+}
+
+.slide {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../images/yosemite.jpg');
 }
 
 .link-box {
@@ -48,4 +58,28 @@
   font-size: 12px;
   color: white;
   margin: auto;
+}
+
+.home-description-box {
+  margin: 0;
+  padding-top: 50px;
+}
+
+#desc-box {
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  border-color: #00aba9;
+  height: 160px;
+  width: 350px;
+  margin: 40px;
+}
+#desc-text {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  hyphens: auto;
+  line-height: 32px;
+  height: 180px;
+  width: 420px;
 }
