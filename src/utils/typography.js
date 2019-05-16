@@ -45,8 +45,14 @@ const typography = new Typography({
       '400i',
       '600',
       '600i'
-    ]
-  }
+    ],
+  },
+  {
+    name: 'Pacifico',
+    styles: [
+      '400',
+    ],
+  },
 ],
 })
 

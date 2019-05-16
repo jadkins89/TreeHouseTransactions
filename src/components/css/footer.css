@@ -1,11 +1,11 @@
 .color-bar {
   height: 100px;
   width: 100%;
-  background-color: rgba(46, 204, 113, 1);
+  background-color: #00aba9;
 }
 
 .bottom-container {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -30,5 +30,5 @@
 }
 
 #business-name {
-  color: rgba(46, 204, 113, 1);
+  color: #00aba9;
 }
