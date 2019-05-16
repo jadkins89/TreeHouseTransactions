@@ -101,6 +101,7 @@
   line-height: 32px;
   height: 180px;
   width: 420px;
+  margin-bottom: 10px;
 }
 
 #desc-box, #desc-text {
