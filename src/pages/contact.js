@@ -1,8 +1,8 @@
 import React from "react"
-//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ContactForm from "../components/contactform"
 
 const Contact = () => (
   <Layout>
@@ -11,8 +11,7 @@ const Contact = () => (
       <p className="banner">Contact</p>
     </div>
     <div className="content">
-      <h1>Hi from the Contact Page</h1>
-      <p>Get in touch!</p>
+    <ContactForm />
     </div>
   </Layout>
 )
