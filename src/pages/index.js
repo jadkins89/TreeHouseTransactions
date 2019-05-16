@@ -2,7 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Linkbox from "../components/linkbox"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 // Write style to modify size of boxes based on screen size
@@ -26,15 +25,16 @@ const IndexPage = () => (
           elit o quid possumus est firmissimum.
           </p>
         </div>
+        <hr style={{margin: `50px`}}/>
       </div>
       <div>
-        <Linkbox title="about" description="Learn about Deena" className="box-1" img="forest-1.jpg" />
-        <Linkbox title="services" description="What we do" className="box-2" img="forest-2.jpg" />
+        <Linkbox title="about" description="Learn about Deena" className="box-1" />
+        <Linkbox title="services" description="What we do" className="box-2" />
         <div id="logo-box">
-          <Image filename="treehouse-logo.png"/>
+          <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
         </div>
-        <Linkbox title="reviews" description="You're going to like us" className="box-3" img="forest-3.jpg" />
-        <Linkbox title="contact" description="Get in touch" className="box-4" img="forest-4.jpg" />
+        <Linkbox title="reviews" description="You're going to like us" className="box-3" />
+        <Linkbox title="contact" description="Get in touch" className="box-4" />
       </div>
     </div>
   </Layout>

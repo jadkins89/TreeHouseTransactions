@@ -17,7 +17,7 @@ class Header extends Component {
 
   render() {
     return (
-      <Navbar collapseOnSelect expand="md" className="navbar-custom" bg="custom" variant="dark">
+      <Navbar collapseOnSelect expand="lg" className="navbar-custom" bg="custom" variant="dark">
         <Link to="/" className="navbar-brand">{ this.props.siteTitle }</Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">

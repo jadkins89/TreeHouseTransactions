@@ -13,8 +13,10 @@ const Image = (props) => (
               relativePath
               name
               childImageSharp {
-                sizes(maxWidth: 600) {
-                  ...GatsbyImageSharpSizes
+                fluid(maxWidth: 600) {
+                  ...GatsbyImageSharpFluid
+                  presentationWidth
+                  presentationHeight
                 }
               }
             }
@@ -29,11 +31,15 @@ const Image = (props) => (
       });
       if (!image) { return null; }
 
-      const imageSizes = image.node.childImageSharp.sizes;
+      const imageFluid = image.node.childImageSharp.fluid;
+      // console.log(imageSizes);
       return (
         <Img
           alt={props.alt}
-          sizes={imageSizes}
+          fluid={imageFluid}
+          style={{
+            maxHeight: imageFluid.presentationHeight
+          }}
         />
       );
     }}
