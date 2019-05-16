@@ -30,7 +30,7 @@ const IndexPage = () => (
       <div>
         <Linkbox title="about" description="Learn about Deena" className="box-1" img="forest-1.jpg" />
         <Linkbox title="services" description="What we do" className="box-2" img="forest-2.jpg" />
-        <div style={{ width: `200px`, display: `inline-block`, margin: `20px`, verticalAlign: `middle` }}>
+        <div id="logo-box">
           <Image filename="treehouse-logo.png"/>
         </div>
         <Linkbox title="reviews" description="You're going to like us" className="box-3" img="forest-3.jpg" />
