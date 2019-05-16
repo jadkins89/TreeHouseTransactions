@@ -5,9 +5,8 @@ const ContactForm = () => (
     <form
       className="contact100-form"
       name="contact"
-      method="post"
+      method="POST"
       data-netlify="true"
-      data-netlify-honeypot="bot-field"
     >
       <span className="contact100-form-title">
         Contact Us
