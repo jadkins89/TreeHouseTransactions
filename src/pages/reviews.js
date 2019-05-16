@@ -8,7 +8,7 @@ const Reviews = () => (
   <Layout>
     <SEO title="Reviews Page" />
     <div className="jumbotron jumbotron-fluid box-3">
-      <p className="banner">reviews</p>
+      <p className="banner">Reviews</p>
     </div>
     <div className="content">
       <h1>5 Stars for life!</h1>

@@ -16,7 +16,7 @@ const IndexPage = () => (
     <div className="content">
       <div className="home-description-box">
         <div id="desc-box">
-          Stuff & Things
+          <p>Stuff & Things</p>
         </div>
         <div id="desc-text">
           <p>

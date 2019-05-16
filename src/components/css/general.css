@@ -15,10 +15,10 @@
 }
 
 .banner {
-  font-family: Abril Fatface;
-  font-style: italic;
+  font-family: Montez;
+  /* font-style: italic; */
   font-size: 48px;
-  font-variant: small-caps;
+  font-variant-caps: titling-caps;
 }
 
 .slide-banner {

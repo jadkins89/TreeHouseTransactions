@@ -48,6 +48,7 @@
   font-family: Source Sans Pro;
   font-size: 40px;
   font-variant: small-caps;
+  letter-spacing: 2px;
   color: white;
   margin: auto;
 }
@@ -66,20 +67,28 @@
 }
 
 #desc-box {
-  display: inline-block;
-  vertical-align: middle;
   border-style: solid;
   border-color: #00aba9;
   height: 160px;
+  line-height: 150px;
   width: 350px;
   margin: 40px;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
 }
+
 #desc-text {
-  display: inline-block;
-  vertical-align: middle;
   text-align: left;
   hyphens: auto;
   line-height: 32px;
   height: 180px;
   width: 420px;
+}
+
+#desc-box, #desc-text {
+  display: inline-block;
+  vertical-align: middle;
 }

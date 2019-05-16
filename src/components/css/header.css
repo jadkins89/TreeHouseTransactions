@@ -6,6 +6,7 @@
   font-family: Pacifico;
   font-size: 42px;
   color: #00aba9;
+  transition: color 0.2s linear;
   /* color: rgba(46, 204, 113, 1); */
 }
 
