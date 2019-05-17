@@ -11,12 +11,10 @@
   margin: 0;
   width: 100%;
   height: 100%;
-  justify-content: center;
 }
 
 .banner {
   font-family: Montez;
-  /* font-style: italic; */
   font-size: 48px;
   font-variant-caps: titling-caps;
 }

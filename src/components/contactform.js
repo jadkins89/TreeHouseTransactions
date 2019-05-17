@@ -1,7 +1,21 @@
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const ContactForm = () => (
   <div className="container-contact100">
+    <span className="contact100-form-title">
+      Contact Deena Adkins for a consultation today.
+    </span>
+    <div className="contact-info">
+      <p>Aliqua e mandaremus ubi te aliquip praesentibus.
+         Laborum noster consequat occaecat est noster constias nam elit fore.
+      </p>
+    </div>
+    <div className="contact-info rs-contact-info">
+      <a className="content-contact-info" href="mailto:deena@deenaadkins.com">deena@deenaadkins.com</a>
+      <a className="linkedin-icon" href="https://www.linkedin.com/in/deenaadkins/"><FontAwesomeIcon icon={faLinkedinIn} size="2x" /></a>
+    </div>
     <form
       className="contact100-form"
       name="contact"
@@ -9,10 +23,6 @@ const ContactForm = () => (
       data-netlify="true"
     >
       <input type="hidden" name="form-name" value="contact" />
-      <span className="contact100-form-title">
-        Contact Us
-      </span>
-
       <div className="wrap-input100 rs1-wrap-input100">
         <span className="label-input100">Your Name</span>
         <input className="input100" type="text" name="name" placeholder="Enter your name" required />

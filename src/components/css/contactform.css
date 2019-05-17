@@ -1,5 +1,5 @@
 .container-contact100 {
-  width: auto;
+  width: 100%;
   min-height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -26,7 +26,7 @@
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   padding-bottom: 30px;
 }
 
@@ -34,18 +34,52 @@
   display: block;
   width: 100%;
   font-family: Poppins-Bold;
-  font-size: 39px;
-  color: #333333;
+  font-size: 20px;
+  color: #00aba9;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 44px;
+  padding-top: 44px;
 }
+
+.contact-info {
+  width: calc((100% - 30px) / 2);
+  padding-bottom: 13px;
+  margin-bottom: 40px;
+  text-align: left;
+  position: relative;
+  margin: 0 auto;
+}
+
+.rs-contact-info {
+  text-align: center;
+}
+
+.content-contact-info, .content-contact-info:hover {
+  font-family: Source Sans Pro;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
+  font-size: 26px;
+  color: #00aba9;
+  text-decoration: none;
+  padding-right: 50px;
+}
+
+.linkedin-icon {
+  color: rgba(46, 49, 49, 1);
+  transition: color 0.2s;
+}
+
+.linkedin-icon:hover {
+  color: #00aba9;
+}
+
 
 /*------------------------------------------------------------------
 [ Input ]*/
 
 .wrap-input100 {
-  width: calc(80% + 20px);
+  width: 100%;
   position: relative;
   border-bottom: 2px solid #d9d9d9;
   padding-bottom: 13px;
@@ -55,8 +89,6 @@
 
 .rs1-wrap-input100 {
   width: calc((100% - 30px) / 2);
-  max-width: 40%;
-  margin: 10px;
 }
 
 .label-input100 {
