@@ -65,9 +65,9 @@
   padding-right: 50px;
 }
 
-.linkedin-icon {
+.linkedin-icon, .linkedin-icon-footer {
   color: rgba(46, 49, 49, 1);
-  transition: color 0.2s;
+  transition: color 0.4s;
 }
 
 .linkedin-icon:hover {
@@ -93,8 +93,8 @@
 
 .label-input100 {
   font-family: Poppins-Regular;
-  font-size: 15px;
-  color: #999999;
+  font-size: 18px;
+  color: rgba(46, 49, 49, 1);
   line-height: 1.5;
   padding-left: 5px;
 }
@@ -141,12 +141,14 @@
 /*---------------------------------------------*/
 input.input100 {
   height: 40px;
+  border-radius: 3px;
 }
 
 textarea.input100 {
   min-height: 110px;
   padding-top: 9px;
   padding-bottom: 13px;
+  border-radius: 5px;
 }
 
 .input100:focus + .focus-input100::before {
@@ -177,11 +179,13 @@ textarea.input100 {
   min-width: 160px;
   height: 50px;
   background-color: #00aba9;
+  border-color: #00aba9;
 
-  font-family: Poppins-Medium;
-  font-size: 16px;
+  font-family: Source Sans Pro;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
+  font-size: 24px;
   color: #fff;
-  line-height: 1.2;
 
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -196,10 +200,11 @@ textarea.input100 {
 }
 
 .contact100-form-btn:hover {
-  background-color: #333333;
-  box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
-  -moz-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0px #333333;
-  -o-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
-  -ms-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+  background-color: rgba(46, 49, 49, 0.9);
+  border-color: rgba(46, 49, 49, 0.9);
+  box-shadow: 0 10px 30px 0px rgba(46, 49, 49, 0.5);
+  -moz-box-shadow: 0 10px 30px 0px rgba(46, 49, 49, 0.5);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(46, 49, 49, 0.5);
+  -o-box-shadow: 0 10px 30px 0px rgba(46, 49, 49, 0.5);
+  -ms-box-shadow: 0 10px 30px 0px rgba(46, 49, 49, 0.5);
 }

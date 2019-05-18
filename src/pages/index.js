@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="TreeHouse Transactions" keywords={[`gatsby`, `application`, `react`]} />
     <div className="jumbotron jumbotron-fluid slide">
       <p className="slide-banner">"Wine, cheese, and chocolate are my three main food groups."</p>
     </div>

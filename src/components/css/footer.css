@@ -2,6 +2,11 @@
   height: 100px;
   width: 100%;
   background-color: #00aba9;
+  line-height: 112px;
+}
+
+.linkedin-icon-footer:hover {
+  color: white;
 }
 
 .bottom-container {

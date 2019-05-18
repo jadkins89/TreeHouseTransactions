@@ -1,9 +1,12 @@
 import React from "react"
-//import { Link } from "gatsby"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => (
   <div className="bottom-container">
-    <div className="color-bar"></div>
+    <div className="color-bar">
+      <a className="linkedin-icon-footer" href="https://www.linkedin.com/in/deenaadkins/"><FontAwesomeIcon icon={faLinkedinIn} size="2x" /></a>
+    </div>
     <div className="bottom-bar">
       <div>
         <p><a className="bottom-content" href="mailto:deena@deenaadkins.com">deena@deenaadkins.com</a></p>
