@@ -37,6 +37,15 @@
   display: flex;
   align-items: center;
   height: 90%;
+  /* transition: all 0.4s; */
+}
+
+.link-box:hover .link-body {
+  font-size: 48px;
+}
+
+.link-box:hover .link-content {
+  font-size: 16px;
 }
 
 .link-body {
@@ -46,6 +55,7 @@
   letter-spacing: 2px;
   color: white;
   margin: auto;
+  transition: all 0.2s ease-in;
 }
 
 .link-content {
@@ -54,6 +64,7 @@
   font-size: 12px;
   color: white;
   margin: auto;
+  transition: all 0.2s ease-in;
 }
 
 .home-description-box {
