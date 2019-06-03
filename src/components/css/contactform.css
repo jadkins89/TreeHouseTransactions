@@ -9,7 +9,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 15px;
   background: transparent;
   position: relative;
   z-index: 1;
@@ -27,7 +26,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 30px;
 }
 
 .contact100-form-title {
@@ -39,7 +37,6 @@
   line-height: 1.2;
   text-align: center;
   padding-bottom: 44px;
-  padding-top: 44px;
 }
 
 .contact-info {
@@ -73,6 +70,18 @@
 .linkedin-icon:hover {
   color: #00aba9;
 }
+
+@media (max-width: 900px) {
+  .content-contact-info, .content-contact-info:hover {
+    font-size: 22px;
+    padding-right: 0px;
+  }
+  .linkedin-icon, .linkedin-icon:hover {
+    display:block;
+    padding-top: 20px;
+  }
+}
+
 
 
 /*------------------------------------------------------------------

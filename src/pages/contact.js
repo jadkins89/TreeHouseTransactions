@@ -11,7 +11,7 @@ const Contact = () => (
       <p className="banner">Contact</p>
     </div>
     <div className="content">
-      <div style={{margin: `0 auto`, width:`70%`}}>
+      <div className="content-interior">
         <ContactForm />
       </div>
     </div>

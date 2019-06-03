@@ -13,6 +13,13 @@
   height: 100%;
 }
 
+.content-interior {
+  padding-bottom: 80px;
+  padding-top: 80px; 
+  margin: 0 auto; 
+  width: 90%;
+}
+
 .banner {
   font-family: Montez;
   font-size: 48px;
@@ -39,6 +46,9 @@
 @media (min-width: 600px) {
   .slide-banner, .banner {
     font-size: 70px;
+  }
+  .content-interior {
+    width: 70%;
   }
 }
 

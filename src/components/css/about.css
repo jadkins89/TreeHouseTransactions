@@ -10,7 +10,20 @@
 #headshot {
   margin-right: 30px;
   margin-bottom: 15px;
-  max-width: 30%;
-  max-height: 30%;
-  float: left;
+  width: 293px;
+  max-height: 447px;
+}
+
+@media (min-width: 900px) {
+  #headshot {
+    max-width: 30%;
+    max-height: 30%;
+    float:left;
+  }
+}
+
+#about-content {
+  padding-left: 10px; 
+  text-align: center;
+  
 }
