@@ -1,0 +1,16 @@
+#greeting {
+  text-align: center;
+  font-variant: small-caps;
+  color: #00aba9;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: serif;
+}
+
+#headshot {
+  margin-right: 30px;
+  margin-bottom: 15px;
+  max-width: 30%;
+  max-height: 30%;
+  float: left;
+}

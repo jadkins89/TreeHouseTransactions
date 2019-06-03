@@ -41,11 +41,11 @@
 }
 
 .link-box:hover .link-body {
-  font-size: 48px;
+  font-size: 46px;
 }
 
 .link-box:hover .link-content {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .link-body {
@@ -55,7 +55,7 @@
   letter-spacing: 2px;
   color: white;
   margin: auto;
-  transition: all 0.2s ease-in;
+  transition: all 0.15s ease-in;
 }
 
 .link-content {
