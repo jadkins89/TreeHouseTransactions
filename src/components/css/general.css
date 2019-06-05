@@ -43,6 +43,25 @@
           animation: fadein 1.5s;
 }
 
+.nav-button {
+  border-style: solid;
+  border-color: #00aba9;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  display:inline-block;
+  font-family: Source Sans Pro;
+  font-variant: small-caps;
+  transition-duration: .3s;
+}
+
+.nav-button:hover {
+  background-color: #00aba9;
+  color: white;
+}
+
 @media (min-width: 600px) {
   .slide-banner, .banner {
     font-size: 70px;

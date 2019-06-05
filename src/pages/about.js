@@ -1,5 +1,6 @@
 import React from "react"
 import headshot from "../images/headshot.png"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -63,6 +64,9 @@ const About = () => (
             nostrud reprehenderit. Ne quorum adipisicing ab laborum quis sunt iudicem anim. 
             Et arbitror firmissimum, hic incurreret iis quibusdam.
           </p>
+          <Link to={'/services'}>
+            <div className="nav-button">learn more about services</div>
+          </Link>
         </div>
       </div>
     </div>
