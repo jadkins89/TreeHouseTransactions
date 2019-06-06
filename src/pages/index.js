@@ -24,15 +24,15 @@ const IndexPage = () => (
           </p>
         </div>
         <hr style={{margin: `50px`}}/>
-        <div>
-          <Linkbox title="about" description="Learn about Deena" className="box-1" />
-          <Linkbox title="services" description="What we do" className="box-2" />
-          <div id="logo-box">
-            <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
-          </div>
-          <Linkbox title="reviews" description="You're going to like us" className="box-3" />
-          <Linkbox title="contact" description="Get in touch" className="box-4" />
+      </div>
+      <div className="content">
+        <Linkbox title="about" description="Learn about Deena" className="box-1" />
+        <Linkbox title="services" description="What we do" className="box-2" />
+        <div id="logo-box">
+          <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
         </div>
+        <Linkbox title="reviews" description="You're going to like us" className="box-3" />
+        <Linkbox title="contact" description="Get in touch" className="box-4" />
       </div>
     </div>
   </Layout>
