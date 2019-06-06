@@ -18,6 +18,10 @@ const ReviewItems = ({data}) => (
       }
     `}
     render={data => {
+      data.allReviewsJson.edges.sort(function(a,b) {
+        let dateA = new Date(a.node.date), dateB = new Date(b.node.date);
+        return dateB - dateA;
+      });
       return (<> 
         {data.allReviewsJson.edges.map((review, index) => ( 
           <div className="review-container">  
