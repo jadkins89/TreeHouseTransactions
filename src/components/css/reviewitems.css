@@ -1,0 +1,11 @@
+.review-container {
+  text-align: left;
+}
+
+.read-more-button {
+  color: #00aba9;
+}
+
+.read-more-button:hover {
+  cursor:pointer;
+}

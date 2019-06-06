@@ -1,8 +1,8 @@
 import React from "react"
-//import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+import ReviewItems from "../components/reviewitems"
 
 const Reviews = () => (
   <Layout>
@@ -11,8 +11,9 @@ const Reviews = () => (
       <p className="banner">Reviews</p>
     </div>
     <div className="content">
-      <h1>5 Stars for life!</h1>
-      <p>PSA: We left out the bad ones.</p>
+      <div className="content-interior">
+        <ReviewItems />
+      </div>
     </div>
   </Layout>
 )
