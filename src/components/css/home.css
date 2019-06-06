@@ -60,10 +60,6 @@
   transition: all 0.2s ease-in;
 }
 
-.home-description-box {
-  margin: 0;
-}
-
 #logo-box {
   border-style: solid;
   border-color: rgba(46, 49, 49, 1);

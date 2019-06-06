@@ -7,7 +7,6 @@
   font-size: 32px;
   color: #00aba9;
   transition: color 0.2s linear;
-  /* color: rgba(46, 204, 113, 1); */
 }
 
 @media (min-width: 600px) {
@@ -26,18 +25,9 @@
   transition: color 0.2s linear;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #00aba9;
-}
-
-.navbar-dark .navbar-nav .nav-link:focus {
-  color: #00aba9;
-}
-
-.navbar-dark .navbar-nav .nav-link.active {
-  color: #00aba9;
-}
-
+.navbar-dark .navbar-nav .nav-link:hover, 
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-brand .nav-link.active {
   color: #00aba9;
 }

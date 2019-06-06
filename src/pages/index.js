@@ -13,7 +13,7 @@ const IndexPage = () => (
       <p className="slide-banner">"Wine, cheese, and chocolate are my three main food groups."</p>
     </div>
     <div className="content">
-      <div className="home-description-box">
+      <div className="content-interior">
         <div id="desc-box">
           <p>Stuff & Things</p>
         </div>
