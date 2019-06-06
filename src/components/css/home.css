@@ -19,7 +19,7 @@
 }
 
 .slide {
-  /* height: 600px; */
+  height: 600px;
   background-image: url('../../images/yosemite.jpg');
 }
 
@@ -66,8 +66,8 @@
 }
 
 #logo-box, .link-boxs {
-  height: 250px;
-  width: 350px;
+  height: 200px;
+  width: 240px;
   display:inline-block;
   vertical-align: middle;
   margin: 18px 18px 70px 18px;
@@ -86,7 +86,8 @@
   height: 160px;
   line-height: 150px;
   width: 350px;
-  margin: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
   font-family: Source Sans Pro;
   font-size: 32px;
   letter-spacing: 2px;
@@ -98,7 +99,7 @@
   text-align: left;
   hyphens: auto;
   line-height: 32px;
-  height: 180px;
+  height: auto;
   width: 420px;
   margin-bottom: 10px;
 }
@@ -106,4 +107,16 @@
 #desc-box, #desc-text {
   display: inline-block;
   vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  #desc-box, #desc-text {
+    width: 90%;
+  }
+  #desc-box {
+    margin-right: 0;
+  }
+  #desc-text {
+    height:auto;
+  }
 }
