@@ -70,14 +70,14 @@
   width: 280px;
   display:inline-block;
   vertical-align: middle;
-  margin: 0px 18px 70px 18px;
+  margin: 18px 18px 70px 18px;
 }
 
 @media (min-width: 500px) {
   #logo-box, .link-boxs {
     height: 200px;
     width: 240px;
-    margin-bottom: 0px;
+    margin-bottom: 18px;
   }
 }
 
