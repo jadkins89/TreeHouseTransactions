@@ -12,6 +12,7 @@ const ReviewItems = ({data}) => (
               name
               date
               body
+              key
             }
           }
         }
@@ -24,7 +25,7 @@ const ReviewItems = ({data}) => (
       });
       return (<> 
         {data.allReviewsJson.edges.map((review, index) => ( 
-          <div className="review-container">  
+          <div className="review-container" key={review.node.key}>  
             <hr/> 
             <p><strong>{review.node.name}</strong> {review.node.date}</p>
             <ReadMoreReact text={review.node.body} />

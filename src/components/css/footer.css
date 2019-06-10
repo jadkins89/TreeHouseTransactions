@@ -1,8 +1,8 @@
 .color-bar {
-  height: 100px;
+  height: 80px;
   width: 100%;
   background-color: #00aba9;
-  line-height: 112px;
+  line-height: 100px;
 }
 
 .linkedin-icon-footer:hover {
@@ -16,7 +16,7 @@
 }
 
 .bottom-bar {
-  height: 200px;
+  height: 160px;
   width: 100%;
   background-color: rgba(46, 49, 49, 1);
   align-items: center;

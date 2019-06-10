@@ -11,8 +11,10 @@ const Services = () => (
       <p className="banner">Services</p>
     </div>
     <div className="content">
-      <h1>Hi from the Services Page</h1>
-      <p>You know Deena's got you covered.</p>
+      <div className="content-interior">
+        <h1>Hi from the Services Page</h1>
+        <p>You know Deena's got you covered.</p>
+      </div>
     </div>
   </Layout>
 )

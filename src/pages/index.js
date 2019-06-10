@@ -25,7 +25,7 @@ const IndexPage = () => (
         </div>
         <hr style={{margin: `50px`}}/>
       </div>
-      <div className="content">
+      <div>
         <Linkbox title="about" description="Learn about Deena" className="box-1" />
         <Linkbox title="services" description="What we do" className="box-2" />
         <div id="logo-box">
