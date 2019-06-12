@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `TreeHouse Transactions`,
-    description: `Your one stop shop all your transaction coordinating needs in the Bay Area.`,
+    description: `Your one-stop shop for all your transaction coordinating needs in the Bay Area.`,
     author: `Deena Adkins`
   },
   plugins: [
@@ -25,11 +25,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `TreeHouse Transactions`,
+        short_name: `TreeHouse Transactions`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `rgba(46, 49, 49, 1)`,
+        theme_color: `#00aba9`,
         display: `minimal-ui`,
         icon: `src/images/treehouse-logo.png`, // This path is relative to the root of the site.
       },
