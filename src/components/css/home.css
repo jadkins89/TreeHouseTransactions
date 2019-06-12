@@ -81,6 +81,23 @@
   }
 }
 
+#logo-box-small {
+  display: none;
+}
+
+#logo-box-regular {
+  display: contents;
+}
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  #logo-box-small {
+    display: contents;
+  }
+  #logo-box-regular {
+    display: none;
+  }
+}
+
 #desc-box {
   border-style: solid;
   border-color: #00aba9;

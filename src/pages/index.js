@@ -27,24 +27,18 @@ const IndexPage = () => (
       </div>
       <div>
         <Linkbox title="about" description="Learn about Deena" className="box-1" />
-        { (window.innerWidth > 600 && window.innerWidth < 1100) ? 
-          ( 
-            <>
-              <div id="logo-box">
-                <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
-              </div>
-              <Linkbox title="services" description="What we do" className="box-2" />
-            </>
-          ) : 
-          (
-            <>
-              <Linkbox title="services" description="What we do" className="box-2" />
-              <div id="logo-box">
-                <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
-              </div>
-            </>
-          )
-        }
+        <div id="logo-box-small">
+          <div id="logo-box">
+            <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
+          </div>
+          <Linkbox title="services" description="What we do" className="box-2" />
+        </div>
+        <div id="logo-box-regular">
+          <Linkbox title="services" description="What we do" className="box-2" />
+          <div id="logo-box">
+            <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
+          </div>
+        </div>
         <Linkbox title="reviews" description="You're going to like us" className="box-3" />
         <Linkbox title="contact" description="Get in touch" className="box-4" />
       </div>
