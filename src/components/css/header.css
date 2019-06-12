@@ -3,15 +3,16 @@
 }
 
 .navbar-dark .navbar-brand {
-  font-family: Pacifico;
-  font-size: 32px;
+  font-family: Dandelion;
+  font-weight: bold;
+  font-size: 28px;
   color: #00aba9;
   transition: color 0.2s linear;
 }
 
 @media (min-width: 600px) {
   .navbar-dark .navbar-brand {
-    font-size: 42px;
+    font-size: 48px;
   }
 }
 

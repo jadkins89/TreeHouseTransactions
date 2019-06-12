@@ -1,0 +1,15 @@
+.service-desc {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  .service-desc {
+    display: inline;
+  }
+}
+
+.service-item {
+  display: inline;
+  width: 300px;
+}

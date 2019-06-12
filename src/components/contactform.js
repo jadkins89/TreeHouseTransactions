@@ -40,7 +40,7 @@ const ContactForm = () => (
       </div>
 
       <div className="wrap-input100">
-        <span className="label-input100">Subject *</span>
+        <span className="label-input100">Brokerage *</span>
         <input className="input100" type="text" name="subject" required />
         <span className="focus-input100"></span>
       </div>
