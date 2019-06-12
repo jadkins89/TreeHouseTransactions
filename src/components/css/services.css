@@ -3,13 +3,38 @@
   justify-content: space-around;
 }
 
+.service-title {
+  margin-bottom: 50px;
+}
+
 @media (max-width: 600px) {
   .service-desc {
     display: inline;
   }
 }
 
+.leaf {
+  width: 40px;
+}
+
 .service-item {
   display: inline;
   width: 300px;
+}
+
+h3.service-desc-tag {
+  color: black;
+  font-family: Source Sans Pro;
+  transition: 0.15s linear;
+}
+
+.service-link:hover, .service-link:hover .service-desc-tag {
+  text-decoration: none;
+  font-size: 130%;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.service-content {
+  text-align: left;
 }

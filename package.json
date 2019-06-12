@@ -30,6 +30,7 @@
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
     "read-more-react": "^1.0.9",
+    "smooth-scroll": "^16.1.0",
     "styled-components": "^4.2.0",
     "ts-pnp": "^1.1.2",
     "typescript": "^3.5.1",

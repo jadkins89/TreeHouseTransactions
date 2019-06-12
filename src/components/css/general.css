@@ -1,14 +1,4 @@
 @font-face {
-  font-family: Coves;
-  src: url("../../utils/Coves/CovesLight.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Corn;
-  src: url("../../utils/Corn/CornDemo-Regular.ttf") format("opentype");
-}
-
-@font-face {
   font-family: Noir-medium;
   src: url("../../utils/Noir/Noir_medium.otf") format("opentype");
 }
@@ -43,10 +33,10 @@
 .content-interior {
   margin: 0 auto; 
   width: 90%;
+  max-width: 1200px;
 }
 
 .slide-banner {
-  /* font-style: italic; */
   font-family: Dandelion;
   font-weight: bold;
   letter-spacing: 3px;
@@ -56,12 +46,6 @@
   font-family:  Noir;
   font-weight: 400;
   letter-spacing: 2px;
-  /* font-variant: small-caps; */
-  /* font-style: italic; */
-}
-
-.leaf {
-  width: 40px;
 }
 
 .slide-banner, .banner {

@@ -15,4 +15,9 @@ export const onClientEntry = () => {
     import(`intersection-observer`)
     console.log(`# IntersectionObserver is polyfilled!`)
   }
+  
+  if (typeof window !== "undefined") {
+    // eslint-disable-next-line global-require
+    require("smooth-scroll")('a[href*="#"]')
+  }
 }
