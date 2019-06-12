@@ -5,6 +5,8 @@
 
 .service-title {
   margin-bottom: 50px;
+  font-family: Source Sans Pro;
+  color: black;
 }
 
 @media (max-width: 600px) {
@@ -31,10 +33,18 @@ h3.service-desc-tag {
 .service-link:hover, .service-link:hover .service-desc-tag {
   text-decoration: none;
   font-size: 130%;
-  color: black;
   margin-bottom: 20px;
 }
 
 .service-content {
   text-align: left;
+  margin-bottom: 30px;
+}
+
+.service-content-title {
+  text-align: left;
+  font-family: Source Sans Pro;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
