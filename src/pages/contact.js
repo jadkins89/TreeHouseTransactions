@@ -6,7 +6,7 @@ import ContactForm from "../components/contactform"
 
 const Contact = () => (
   <Layout>
-    <SEO title="Contact Page" />
+    <SEO title="Contact" />
     <div className="jumbotron jumbotron-fluid box-4">
       <p className="banner">Contact</p>
     </div>

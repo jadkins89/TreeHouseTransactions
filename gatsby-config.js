@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `TreeHouse Transactions`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Your one stop shop all your transaction coordinating needs in the Bay Area.`,
+    author: `Deena Adkins`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

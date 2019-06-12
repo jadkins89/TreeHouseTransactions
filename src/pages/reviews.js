@@ -6,7 +6,7 @@ import ReviewItems from "../components/reviewitems"
 
 const Reviews = () => (
   <Layout>
-    <SEO title="Reviews Page" />
+    <SEO title="Reviews" />
     <div className="jumbotron jumbotron-fluid box-3">
       <p className="banner">Reviews</p>
     </div>

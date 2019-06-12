@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const Services = () => (
   <Layout>
-    <SEO title="Services Page" />
+    <SEO title="Services" />
     <div className="jumbotron jumbotron-fluid box-2">
       <p className="banner">Services</p>
     </div>
