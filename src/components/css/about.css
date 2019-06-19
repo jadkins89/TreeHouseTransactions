@@ -12,6 +12,7 @@
   margin-bottom: 15px;
   width: 293px;
   max-height: 447px;
+  display: inline;
 }
 
 @media (min-width: 900px) {
@@ -23,6 +24,5 @@
 }
 
 #about-content {
-  padding-left: 10px; 
   text-align: center;
 }

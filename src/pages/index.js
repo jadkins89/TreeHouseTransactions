@@ -4,12 +4,18 @@ import Layout from "../components/layout"
 import Linkbox from "../components/linkbox"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+import { graphql } from "gatsby"
+import BackgroundImage from 'gatsby-background-image'
+
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="TreeHouse Transactions" keywords={[`Deena`, `Adkins`, `TreeHouse Transactions`, `Transaction Coordinator`]} />
-    <div className="jumbotron jumbotron-fluid slide">
+    <BackgroundImage 
+      fluid={data.file.childImageSharp.fluid}
+      className="jumbotron slide"
+    >
       <p className="slide-banner">"Wine, cheese, and chocolate are my three main food groups."</p>
-    </div>
+    </BackgroundImage>
     <div className="content">
       <div className="content-interior">
         <div id="desc-box">
@@ -45,5 +51,17 @@ const IndexPage = () => (
     </div>
   </Layout>
 );
+
+export const query = graphql`
+  query { 
+    file(relativePath: { eq: "yosemite.jpg" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage

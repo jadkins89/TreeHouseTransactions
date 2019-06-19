@@ -1,11 +1,11 @@
 import React from "react"
-import headshot from "../images/headshot.png"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const About = () => (
+const About = ({ data }) => (
   <Layout>
     <SEO title="About" />
     <div className="jumbotron jumbotron-fluid box-1">
@@ -14,7 +14,9 @@ const About = () => (
     <div className="content">
       <div className="content-interior">
         <div id="about-content">
-          <img src={headshot} id="headshot" alt="head-shot"/>
+          <div id="headshot">
+            <Img fluid={data.file.childImageSharp.fluid} />
+          </div>
           <h1 id="greeting">
             *<br/><br/>
             Hi I'm <strong>Deena Adkins</strong>, the Creator of <strong>TreeHouse Transactions.</strong>
@@ -72,5 +74,17 @@ const About = () => (
     </div>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "headshot.png" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 export default About
