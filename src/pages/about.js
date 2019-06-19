@@ -15,7 +15,7 @@ const About = ({ data }) => (
       <div className="content-interior">
         <div id="about-content">
           <div id="headshot">
-            <Img fluid={data.file.childImageSharp.fluid} />
+            <Img fluid={data.file.childImageSharp.fluid} durationFadeIn="1000ms" />
           </div>
           <h1 id="greeting">
             *<br/><br/>

@@ -13,6 +13,7 @@ const IndexPage = ({ data }) => (
     <BackgroundImage 
       fluid={data.file.childImageSharp.fluid}
       className="jumbotron slide"
+      fadeIn="soft"
     >
       <p className="slide-banner">"Wine, cheese, and chocolate are my three main food groups."</p>
     </BackgroundImage>
