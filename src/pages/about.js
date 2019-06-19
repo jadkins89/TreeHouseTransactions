@@ -13,6 +13,7 @@ const About = ({ data }) => (
     <BackgroundImage
       fluid={data.background.childImageSharp.fluid}
       className="jumbotron jumbotron-fluid"
+      fadeIn="soft"
     >
       <p className="banner">About</p>
     </BackgroundImage>
