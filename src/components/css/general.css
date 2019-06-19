@@ -1,18 +1,3 @@
-@font-face {
-  font-family: Noir-medium;
-  src: url("../../utils/Noir/Noir_medium.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Noir;
-  src: url("../../utils/Noir/Noir_regular.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Dandelion;
-  src: url("../../utils/Dandelion/Dandelion.ttf") format("opentype");
-}
-
 .jumbotron {
   height: 454px;
   display: flex;

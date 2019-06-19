@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Noir-medium;
+  src: url("./Noir/Noir_medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Noir;
+  src: url("./Noir/Noir_regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Dandelion;
+  src: url("./Dandelion/Dandelion.ttf") format("opentype");
+}

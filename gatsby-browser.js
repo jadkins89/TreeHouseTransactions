@@ -8,6 +8,7 @@ import './src/components/css/contactform.css';
 import './src/components/css/about.css';
 import './src/components/css/reviewitems.css';
 import './src/components/css/services.css';
+import './src/utils/fonts.css';
 
 export const onClientEntry = () => {
   // IntersectionObserver polyfill for gatsby-background-image (Safari, IE)
