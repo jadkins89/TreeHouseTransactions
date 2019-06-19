@@ -19,6 +19,7 @@ const Reviews = ({ data }) => (
     </BackgroundImage>
     <div className="content">
       <div className="content-interior">
+        <h1 className="service-title">What people are saying...</h1>
         <ReviewItems />
       </div>
     </div>
