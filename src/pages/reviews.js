@@ -1,15 +1,22 @@
 import React from "react"
+import BackgroundImage from 'gatsby-background-image'
+import { graphql } from 'gatsby'
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import ReviewItems from "../components/reviewitems"
 
-const Reviews = () => (
+const Reviews = ({ data }) => (
   <Layout>
     <SEO title="Reviews" />
-    <div className="jumbotron jumbotron-fluid box-3">
+    <BackgroundImage
+      fluid={data.background.childImageSharp.fluid}
+      className="jumbotron"
+      fadeIn="soft"
+    >
       <p className="banner">Reviews</p>
-    </div>
+    </BackgroundImage>
     <div className="content">
       <div className="content-interior">
         <ReviewItems />
@@ -17,5 +24,17 @@ const Reviews = () => (
     </div>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    background: file(relativePath: { eq: "forest-3.jpg" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 export default Reviews

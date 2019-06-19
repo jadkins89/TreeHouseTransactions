@@ -1,15 +1,20 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
+import BackgroundImage from 'gatsby-background-image'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Services = () => (
+const Services = ({ data }) => (
   <Layout>
     <SEO title="Services" />
-    <div className="jumbotron jumbotron-fluid box-2">
+    <BackgroundImage
+      fluid={data.background.childImageSharp.fluid}
+      className="jumbotron"
+      fadeIn="soft"
+    >
       <p className="banner">Services</p>
-    </div>
+    </BackgroundImage>
     <div className="content">
       <div className="content-interior">
         <h1 className="service-title">Transaction Coordinating Services</h1>
@@ -117,5 +122,17 @@ const Services = () => (
     </div>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    background: file(relativePath: { eq: "forest-2.jpg" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 export default Services

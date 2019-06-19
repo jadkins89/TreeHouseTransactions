@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => (
     <SEO title="TreeHouse Transactions" keywords={[`Deena`, `Adkins`, `TreeHouse Transactions`, `Transaction Coordinator`]} />
     <BackgroundImage 
       fluid={data.file.childImageSharp.fluid}
-      className="jumbotron slide"
+      className="jumbotron jumbotron-fluid slide"
       fadeIn="soft"
     >
       <p className="slide-banner">"Wine, cheese, and chocolate are my three main food groups."</p>

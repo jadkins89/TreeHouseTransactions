@@ -1,4 +1,7 @@
-.jumbotron {
+.jumbotron, .jumbotron:before, .jumbotron:after {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 454px;
   display: flex;
   justify-content: center;

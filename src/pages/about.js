@@ -1,21 +1,26 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
+import BackgroundImage from 'gatsby-background-image'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+
 const About = ({ data }) => (
   <Layout>
     <SEO title="About" />
-    <div className="jumbotron jumbotron-fluid box-1">
+    <BackgroundImage
+      fluid={data.background.childImageSharp.fluid}
+      className="jumbotron jumbotron-fluid"
+    >
       <p className="banner">About</p>
-    </div>
+    </BackgroundImage>
     <div className="content">
       <div className="content-interior">
         <div id="about-content">
           <div id="headshot">
-            <Img fluid={data.file.childImageSharp.fluid} durationFadeIn="1000ms" />
+            <Img fluid={data.headshot.childImageSharp.fluid} durationFadeIn={1000} />
           </div>
           <h1 id="greeting">
             *<br/><br/>
@@ -77,7 +82,14 @@ const About = ({ data }) => (
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "headshot.png" }) {
+    headshot: file(relativePath: { eq: "headshot.png" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    background: file(relativePath: { eq: "forest-1.jpg" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
