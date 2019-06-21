@@ -4,24 +4,25 @@
 }
 
 .box-1 {
-  background-image: url('../../images/forest-1.jpg');
+  background-image: url('../../images/tree-sun.jpeg');
+  background-position: left;
+  background-size: 400px;
 }
 
 .box-2 {
-  background-image: url('../../images/forest-2.jpg');
+  background-image: url('../../images/sanfran-houses.jpeg');
 }
 
 .box-3 {
-  background-image: url('../../images/forest-3.jpg');
+  background-image: url('../../images/houses-fall.jpeg');
 }
 
 .box-4 {
-  background-image: url('../../images/forest-4.jpg');
+  background-image: url('../../images/fog.jpg');
 }
 
 .slide {
   height: 600px;
-  /* background-image: url('../../images/yosemite.jpg'); */
 }
 
 .link-boxs {

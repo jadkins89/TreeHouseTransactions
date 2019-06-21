@@ -1,39 +1,42 @@
 import React from "react"
 import BackgroundImage from 'gatsby-background-image'
-import { graphql } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ContactForm from "../components/contactform"
 
-const Contact = ({ data }) => (
-  <Layout>
-    <SEO title="Contact" />
-    <BackgroundImage
-      fluid={data.background.childImageSharp.fluid}
-      className="jumbotron"
-      fadeIn="soft"
-    >
-      <p className="banner">Contact</p>
-    </BackgroundImage>
-    <div className="content">
-      <div className="content-interior">
-        <ContactForm />
-      </div>
-    </div>
-  </Layout>
-)
-
-export const query = graphql`
-  query {
-    background: file(relativePath: { eq: "forest-4.jpg" }) {
-      childImageSharp {
-        fluid(quality: 100) {
-          ...GatsbyImageSharpFluid
+const Contact = () => (
+  <StaticQuery
+    query={graphql`
+      query {
+        background: file(relativePath: { eq: "fog.jpg" }) {
+          childImageSharp {
+            fluid(quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
       }
-    }
-  }
-`
+    `}
+    render={data => (
+      <Layout>
+        <SEO title="Contact" />
+        <BackgroundImage
+          fluid={data.background.childImageSharp.fluid}
+          className="jumbotron"
+          loading="eager"
+        >
+          <p className="banner">Contact</p>
+        </BackgroundImage>
+        <div className="content">
+          <div className="content-interior">
+            <ContactForm />
+          </div>
+        </div>
+      </Layout>
+    )}
+  />
+);
 
 export default Contact
