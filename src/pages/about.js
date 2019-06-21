@@ -20,7 +20,7 @@ const About = () => (
         }
         background: file(relativePath: { eq: "tree-sun.jpeg" }) {
           childImageSharp {
-            fluid(quality: 100) {
+            fluid(quality: 30) {
               ...GatsbyImageSharpFluid
             }
           }

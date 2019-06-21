@@ -1,17 +1,21 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
+import BackgroundImage from 'gatsby-background-image'
 
-const Linkbox = ({ title, description, className }) => (
+const Linkbox = ({ title, description, fluid }) => (
   <Link to={"/" + title}>
-    <div className={"link-boxs " + className}>
+    <BackgroundImage
+      fluid={fluid}
+      className="link-boxs"
+    >
       <div className="link-box">
         <div style={{ width: `100%`}}>
           <p className="link-body">{title}</p>
           <p className="link-content">{description}</p>
         </div>
       </div>
-    </div>
+    </BackgroundImage>
   </Link>
 )
 

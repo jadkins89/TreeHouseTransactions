@@ -11,9 +11,37 @@ const IndexPage = () => (
   <StaticQuery
     query={graphql`
       query { 
-        file(relativePath: { eq: "bay.jpeg" }) {
+        index: file(relativePath: { eq: "bay.jpeg" }) {
           childImageSharp {
-            fluid(quality: 100) {
+            fluid(quality: 60) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        about: file(relativePath: { eq: "tree-sun.jpeg" }) {
+          childImageSharp {
+            fluid(quality: 20) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        services: file(relativePath: { eq: "sanfran-houses.jpeg" }) {
+          childImageSharp {
+            fluid(quality: 20) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        reviews: file(relativePath: { eq: "houses-fall.jpeg" }) {
+          childImageSharp {
+            fluid(quality: 20) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        contact: file(relativePath: { eq: "fog.jpg" }) {
+          childImageSharp {
+            fluid(quality: 20) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -24,7 +52,7 @@ const IndexPage = () => (
       <Layout>
         <SEO title="TreeHouse Transactions" keywords={[`Deena`, `Adkins`, `TreeHouse Transactions`, `Transaction Coordinator`]} />
         <BackgroundImage 
-          fluid={data.file.childImageSharp.fluid}
+          fluid={data.index.childImageSharp.fluid}
           className="jumbotron jumbotron-fluid slide"
           loading="eager"
         >
@@ -46,21 +74,21 @@ const IndexPage = () => (
             <hr style={{margin: `50px`}}/>
           </div>
           <div>
-            <Linkbox title="about" description="Learn about Deena" className="box-1" />
+            <Linkbox title="about" description="Learn about Deena" fluid={data.about.childImageSharp.fluid} />
             <div id="logo-box-small">
               <div id="logo-box">
                 <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
               </div>
-              <Linkbox title="services" description="What we do" className="box-2" />
+              <Linkbox title="services" description="What we do" fluid={data.services.childImageSharp.fluid} />
             </div>
             <div id="logo-box-regular">
-              <Linkbox title="services" description="What we do" className="box-2" />
+              <Linkbox title="services" description="What we do" fluid={data.services.childImageSharp.fluid} />
               <div id="logo-box">
                 <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
               </div>
             </div>
-            <Linkbox title="reviews" description="You're going to like us" className="box-3" />
-            <Linkbox title="contact" description="Get in touch" className="box-4" />
+            <Linkbox title="reviews" description="You're going to like us" fluid={data.reviews.childImageSharp.fluid} />
+            <Linkbox title="contact" description="Get in touch" fluid={data.contact.childImageSharp.fluid} />
           </div>
         </div>
       </Layout>

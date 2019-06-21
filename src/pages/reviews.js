@@ -13,7 +13,7 @@ const Reviews = () => (
       query {
         background: file(relativePath: { eq: "houses-fall.jpeg" }) {
           childImageSharp {
-            fluid(quality: 100) {
+            fluid(quality: 30) {
               ...GatsbyImageSharpFluid
             }
           }

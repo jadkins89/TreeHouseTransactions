@@ -11,7 +11,7 @@ const Services = () => (
       query {
         background: file(relativePath: { eq: "sanfran-houses.jpeg" }) {
           childImageSharp {
-            fluid(quality: 100) {
+            fluid(quality: 30) {
               ...GatsbyImageSharpFluid
             }
           }
