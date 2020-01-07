@@ -15,6 +15,10 @@
   .navbar-dark .navbar-brand {
     font-size: 60px;
   }
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .navbar-dark .navbar-nav .nav-link {

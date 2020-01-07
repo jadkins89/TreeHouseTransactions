@@ -24,7 +24,7 @@ const ContactForm = () => (
         </p>
       </div>
       <div className="contact-info rs-contact-info">
-        <a className="content-contact-info" href="mailto:deena@deenaadkins.com">deena@deenaadkins.com</a>
+        <a className="content-contact-info" href="mailto:tcteam@treehousetransactions.com">tcteam@treehousetransactions.com</a>
         <a className="linkedin-icon" href="https://www.linkedin.com/in/deenaadkins/"><FontAwesomeIcon icon={faLinkedinIn} size="2x" /></a>
       </div>
       <div className="wrap-input100 rs1-wrap-input100">

@@ -9,7 +9,7 @@ const Footer = () => (
     </div>
     <div className="bottom-bar">
       <div>
-        <p><a className="bottom-content" href="mailto:deena@deenaadkins.com">deena@deenaadkins.com</a></p>
+        <p><a className="bottom-content" href="mailto:tcteam@treehousetransactions.com">tcteam@treehousetransactions.com</a></p>
         <p className="bottom-content" id="business-name">TreeHouse Transactions</p>
       </div>
     </div>
