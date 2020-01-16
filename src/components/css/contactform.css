@@ -58,13 +58,17 @@
   letter-spacing: 2px;
 }
 
-.content-contact-info, .content-contact-info:hover {
+.content-contact-info, .content-contact-info:hover, .content-contact-info-mobile, .content-contact-info-mobile:hover {
   font-family: Source Sans Pro;
   font-variant-caps: all-small-caps;
   font-weight: bold;
   font-size: 26px;
   color: #00aba9;
   text-decoration: none;
+}
+
+.content-contact-info-mobile {
+  display: none;
 }
 
 .linkedin-icon, .linkedin-icon-footer {
@@ -77,13 +81,19 @@
 }
 
 @media (max-width: 900px) {
-  .content-contact-info, .content-contact-info:hover {
-    font-size: 22px;
+  .content-contact-info {
+    display: none;
+  }
+  .content-contact-info-mobile, .content-contact-info-mobile:hover {
+    display: contents;
     padding-right: 0px;
   }
   .linkedin-icon, .linkedin-icon:hover {
     font-size: 36px;
     display:block;
+  }
+  .tagline {
+    font-size: 22px;
   }
 }
 
