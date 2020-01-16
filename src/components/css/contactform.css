@@ -32,7 +32,7 @@
   display: block;
   width: 100%;
   font-family: Poppins-Bold;
-  font-size: 20px;
+  font-size: 24px;
   color: #00aba9;
   line-height: 1.2;
   text-align: center;
@@ -43,13 +43,15 @@
   width: calc((100% - 30px) / 2);
   padding-bottom: 13px;
   margin-bottom: 40px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-variant-caps: small-caps;
+  font-family: Source Sans Pro;
+  font-size: 28px;
   position: relative;
   margin: 0 auto;
-}
-
-.rs-contact-info {
-  text-align: center;
 }
 
 .content-contact-info, .content-contact-info:hover {
@@ -59,7 +61,6 @@
   font-size: 26px;
   color: #00aba9;
   text-decoration: none;
-  padding-right: 50px;
 }
 
 .linkedin-icon, .linkedin-icon-footer {
@@ -77,8 +78,8 @@
     padding-right: 0px;
   }
   .linkedin-icon, .linkedin-icon:hover {
+    font-size: 36px;
     display:block;
-    padding-top: 20px;
   }
 }
 

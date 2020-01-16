@@ -18,7 +18,7 @@ const IndexPage = () => (
             }
           }
         }
-        about: file(relativePath: { eq: "tree-sun.jpeg" }) {
+        about: file(relativePath: { eq: "blue_door.jpg" }) {
           childImageSharp {
             fluid(quality: 20) {
               ...GatsbyImageSharpFluid
@@ -32,14 +32,14 @@ const IndexPage = () => (
             }
           }
         }
-        reviews: file(relativePath: { eq: "houses-fall.jpeg" }) {
+        reviews: file(relativePath: { eq: "leaves.jpg" }) {
           childImageSharp {
             fluid(quality: 20) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        contact: file(relativePath: { eq: "fog.jpg" }) {
+        contact: file(relativePath: { eq: "notebook_flowers.jpg" }) {
           childImageSharp {
             fluid(quality: 20) {
               ...GatsbyImageSharpFluid
@@ -56,7 +56,7 @@ const IndexPage = () => (
           className="jumbotron jumbotron-fluid slide"
           loading="eager"
         >
-          <p className="slide-banner">"Wine, cheese, and chocolate are my three main food groups"</p>
+          <p className="slide-banner">"Until we can manage time, we can manage nothing else" ~ Peter Drucker</p>
         </BackgroundImage>
         <div className="content">
           <div className="content-interior">

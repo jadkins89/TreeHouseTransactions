@@ -18,7 +18,7 @@ const About = () => (
             }
           }
         }
-        background: file(relativePath: { eq: "tree-sun.jpeg" }) {
+        background: file(relativePath: { eq: "blue_door.jpg" }) {
           childImageSharp {
             fluid(quality: 30) {
               ...GatsbyImageSharpFluid
