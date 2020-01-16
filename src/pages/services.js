@@ -39,7 +39,7 @@ const Services = () => (
                     <h3 className="service-desc-tag">Listings</h3>
                   </div>
                 </a>
-                <p>Ea tempor mentitum cernantur, singulis ab quid. Dolor offendit ne relinqueret.</p>
+                <p>You sign the listing, we do the rest.</p>
               </div>
               <div className="service-item">
                 <a className="service-link" href='#sales'>
@@ -48,7 +48,7 @@ const Services = () => (
                     <h3 className="service-desc-tag">Sales</h3>
                   </div>
                 </a>
-                <p>Ne legam excepteur cernantur, quid o aliquip e quem ne iudicem.</p>
+                <p>Congratulations, you're in contract. We'll manage paperwork and timelines, you negotiate the rest and focus on the client.</p>
               </div>
               <div className="service-item">
                 <a className="service-link" href='#gettingStarted'>
@@ -57,76 +57,52 @@ const Services = () => (
                     <h3 className="service-desc-tag">Getting Started</h3>
                   </div>
                 </a>
-                <p>Nam e illum quae export, labore fabulas incurreret, quibusdam aliqua quem incididunt.</p>
+                <p>Contact us to get setup in our system. Once we have your information you can just forward new listings or contracts and we will take it from there.</p>
               </div>
             </div>
             <h2 id="listings" className="service-content-title">Listing Services</h2>
             <div className="service-content">
-              <p>
-              Aliquip ipsum iudicem eu do irure offendit. Ita irure dolor quid senserit ea 
-              quem ne ad summis voluptate, ut ab multos dolore enim, eu o adipisicing si sed 
-              elit ita enim hic irure id ingeniis est dolore ab quis in est aliqua consequat 
-              ab ex fabulas adipisicing.
-              </p>
               <ul>
-                <li>Set up new listing with office / Create list & sale sheet</li>
+                <li>Set up new listing with office and complete any office required paperwork</li>
                 <li>Pull evidence of ownership</li>
-                <li>Start Pre-Escrow with Title</li>
-                <li>Order Prelim and HOA documents as needed</li>
+                <li>Start Pre-Escrow with Title and order Prelim</li>
+                <li>Set up file in TC Workflow (software we use to track all details and store files in cloud indefinitely)</li>
+                <li>Order HOA documents through title, as needed</li>
                 <li>Order NHD report</li>
+                <li>Order 3R reports, if required</li>
+                <li>Order Sellers Coverage, if requested</li>
                 <li>Set up Seller Disclosure Packet in Discloures IO and Docusign</li>
-                <li>Send TDS/SPQ etc via Glide for easy client completion</li>
-                <li>No more missed boxes or need to scan back</li>
-                <li>Order Property inspections, 3R reports, Tank Inspection, and Water and Compliance inspections as requested</li>
+                <li>Send TDS/SPQ and Earthquake report if needed via Glide for easy client completion</li>
+                <li>Pull all documents, set up Seller Disclosure Packet, and send out via Docusign or set up for print if you need to sign in person</li>
+                <li>Set up Disclosures IO with full Disclosure Packet and provide link you can add to MLS</li>
                 <li>Send out Seller Disclosure Packets</li>
+                <li>Send our reminders of upcoming listing expiration dates</li>
               </ul>
               <h2 id="sales" className="service-content-title">Residential Sales Services</h2>
-              <p>
-              Cernantur fidelissimae est ullamco, excepteur domesticarum se mandaremus, 
-              incurreret eruditionem est deserunt an ut nisi ea eram, se est cillum excepteur 
-              ubi nostrud quo eiusmod, quo elit multos quid laborum, appellat imitarentur e 
-              iudicem. Litteris fore tempor te cillum. Dolor eruditionem probant irure 
-              ullamco, laboris duis fugiat voluptate anim, sed anim te duis est quorum 
-              pariatur an comprehenderit se sunt ubi si magna litteris, aliquip velit nescius, 
-              te dolore laborum incididunt si nam fore nulla malis ullamco.
-              </p>
               <ul>
-                <li>Set up transaction in Home Base / Create list & sale sheet</li>
-                <li>Set up escrow / Get wire instructions to client / Follow up on deposit</li>
+                <li>Set up transaction with your office and take care of any office required paperwork</li>
+                <li>Set up escrow</li>
+                <li>Get wire instructions to the Client and follow up on deposit</li>
                 <li>Send welcome out to all parties with Transaction Timeline and Coversheet</li>
-                <li>Coordinate with title, listing agent, and clients for smooth transaction</li>
-                <li>Set up disclosures in docusign or print for hand signing</li>
-                <li>Ensure all documents are complete and in file</li>
+                <li>Coordinate with Title, Listing Agent, and Clients for smooth transaction</li>
+                <li>Set up disclosures in Docusign or print for hand signing</li>
+                <li>Ensure all documents are complete and in file, including anything specific to your office</li>
+                <li>Send out weekly file status updates</li>
                 <li>Follow up on file review notices</li>
-                <li>Follow up on Contigency Removal dates</li>
-                <li>Maintain complete file in Paperless Pipeline and add all emails at close</li>
-                <li>All files stored in cloud for 10 years</li>
                 <li>Order Home Warranty</li>
-                <li>Order inspections as requested</li>
+                <li>Keep track of all Tasks and Contigency Removal dates, sending advance reminders to you</li>
                 <li>Confirm terms with title</li>
+                <li>Add Closing statement to file and send out at tax time upon request</li>
+                <li>Maintain complete file in TC Workflow and add all emails at close</li>
+                <li>All files stored in cloud indefinitely</li>
               </ul>
               <h2 id="gettingStarted" className="service-content-title">Opening a New Transaction</h2>
               <p>
-              Eiusmod hic tempor pariatur, ita quorum vidisse o quamquam quis nescius 
-              constias, ne noster dolore se incurreret. Quo fore aut elit. Quo veniam 
-              senserit, excepteur irure laborum officia iis nostrud nam quibusdam sed illum 
-              aliquip offendit.Et te sint velit velit ex offendit quae doctrina. Veniam 
-              commodo imitarentur, illum expetendis vidisse, sint mentitum qui noster dolor, 
-              aut se quorum incurreret, legam de quamquam id duis.
+                Once we have your info in our system, opening a new transaction is easy. Just send us your signed listing agreement or contract, 
+                along with title info and client contact info (if not already in zipforms). We will confirm receipt and get everything started 
+                that day or depending on time of receipt the next morning at the latest.  Our standard office hours are Monday through Friday 9-5 pm. 
+                Closed weekends and Holidays.
               </p>
-              <ul>
-                <li>Hic de philosophari, nescius duis dolor se nulla.</li>
-                <li>Quae singulis se nulla illum nam aliqua incurreret cohaerescant.</li>
-                <li>Ex elit expetendis non nam non tamen senserit.</li>
-                <li>Voluptate ea quorum non nam legam probant.</li>
-                <li>Ex aut praetermissum ex duis comprehenderit senserit nulla commodo.</li>
-                <li>Mandaremus domesticarum ut aliquip, mandaremus o ullamco.</li>
-                <li>Elit commodo id exquisitaque aut nulla arbitror fidelissimae.</li>
-                <li>Mentitum magna quae o nisi o mandaremus ipsum expetendis.</li>
-                <li>Excepteur malis laboris incurreret ubi quibusdam te tempor.</li>
-                <li>Malis mentitum efflorescere eu eu ut graviterque.</li>
-                <li>Mandaremus et aute, quorum probant domesticarum.</li>
-              </ul>
             </div>
             <Link to={'/contact'}>
               <div className="nav-button">contact us</div>

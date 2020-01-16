@@ -19,11 +19,10 @@ const ContactForm = () => {
       <form className="contact100-form" name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <span className="contact100-form-title">
-          Contact Deena Adkins for a consultation to see how Treehouse
-          Transactions can help you.
+          Contact TreeHouse Transactions to find out how we can help you.
         </span>
-        <div className="contact-info">
-          <p>Freedom From the Paperwork</p>
+        <div className="contact-info tagline">
+          <p>freedom from the paperwork</p>
         </div>
         <div className="contact-info">
           <a className="content-contact-info" href="mailto:tcteam@treehousetransactions.com">

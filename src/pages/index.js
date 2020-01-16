@@ -60,35 +60,39 @@ const IndexPage = () => (
         </BackgroundImage>
         <div className="content">
           <div className="content-interior">
-            <div id="desc-box">
-              <p>Stuff & Things</p>
-            </div>
-            <div id="desc-text">
-              <p>
-              Sunt quamquam occaecat, eram eu singulis te nisi. Est occaecat id vidisse, irure
-              o hic quem arbitror ea ingeniis dolore voluptate e officia enim fugiat arbitror
-              quis et quis in singulis do tempor, vidisse quo tempor voluptate iis o export a
-              elit o quid possumus est firmissimum.
-              </p>
+            <div id="desc-container">
+              <div id="desc-box">
+                <span>Freedom From the Paperwork</span>
+              </div>
+              <div id="desc-text">
+                <p>
+                  Want to take your business to the next level or just looking to get a bit more balance in your life. 
+                  We can help. The average agent spends hours managing documents and transaction timelines, when they 
+                  could be focusing on their clients and the next deal. Treehouse Transactions can help you grow your business 
+                  and regain your time. We manage all aspects from listing through closing. We become an integral part of your 
+                  team and are only paid when the contact closes, so we are equally invested in your success. Whether you do a 
+                  few deals a year or a month, we are here for you. Contact us today to discuss your needs and how we can help.
+                </p>
+              </div>
             </div>
             <hr style={{margin: `50px`}}/>
           </div>
           <div>
-            <Linkbox title="about" description="Learn about Deena" fluid={data.about.childImageSharp.fluid} />
+            <Linkbox title="about" description="Meet the TC Team" fluid={data.about.childImageSharp.fluid} />
             <div id="logo-box-small">
               <div id="logo-box">
                 <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
               </div>
-              <Linkbox title="services" description="What we do" fluid={data.services.childImageSharp.fluid} />
+              <Linkbox title="services" description="What we can do for you" fluid={data.services.childImageSharp.fluid} />
             </div>
             <div id="logo-box-regular">
-              <Linkbox title="services" description="What we do" fluid={data.services.childImageSharp.fluid} />
+              <Linkbox title="services" description="What we can do for you" fluid={data.services.childImageSharp.fluid} />
               <div id="logo-box">
                 <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
               </div>
             </div>
-            <Linkbox title="reviews" description="You're going to like us" fluid={data.reviews.childImageSharp.fluid} />
-            <Linkbox title="contact" description="Get in touch" fluid={data.contact.childImageSharp.fluid} />
+            <Linkbox title="reviews" description="What our clients have to say" fluid={data.reviews.childImageSharp.fluid} />
+            <Linkbox title="contact" description="Lets talk about how we can help" fluid={data.contact.childImageSharp.fluid} />
           </div>
         </div>
       </Layout>

@@ -45,7 +45,7 @@ const About = () => (
               </div>
               <h1 id="greeting">
                 *<br/><br/>
-                Hi I'm <strong>Deena Adkins</strong>, the Creator of <strong>TreeHouse Transactions.</strong>
+                <strong>Deena Adkins</strong>, Creator of <strong>TreeHouse Transactions</strong>
                 <br/><br/>*
               </h1>
               <p style={{textAlign: `left`}}>
@@ -71,27 +71,27 @@ const About = () => (
                 nulla si consequat distinguantur ita a aliqua philosophari, cupidatat summis 
                 export deserunt legam, sed dolore do enim de hic cupidatat qui ingeniis iis 
                 officia elit mandaremus mandaremus.
-                <br/><br/>
-                Aut anim deserunt constias, vidisse ubi quis, laboris se tempor, quid consequat 
-                praetermissum. Id te efflorescere non in minim quamquam senserit. Ad magna 
-                commodo comprehenderit ex nostrud legam aliqua mandaremus amet. Pariatur ab 
-                noster laboris ex expetendis sunt consequat, fugiat ab id fugiat incididunt si 
-                in eu culpa cupidatat hic quis voluptate nescius, labore ex ex malis appellat, 
-                enim incurreret litteris e iis ipsum officia.Nam labore quae quorum mentitum do 
-                iis multos coniunctione. Tamen ab nescius, dolore sed cernantur o do malis 
-                exquisitaque iis ad iudicem eu possumus. Arbitror legam irure ullamco summis, 
-                labore an eiusmod o esse, in hic sunt quis dolor et ne laboris ne admodum, 
-                fugiat distinguantur eiusmod velit proident, amet admodum possumus, est ad culpa 
-                cupidatat sed eu illum eruditionem.
-                <br/><br/>
-                Ita dolor arbitrantur. Non nostrud quo aliquip non summis officia admodum. 
-                Mandaremus sunt nam aliquip consectetur est in o instituendarum ea arbitror 
-                ipsum tamen in export, ab incurreret reprehenderit in si cernantur ubi fabulas, 
-                probant se cernantur se deserunt consectetur o cupidatat, arbitror quae iudicem 
-                constias.Anim quo do legam litteris iis magna arbitror iis mentitum. Sint 
-                nostrud reprehenderit. Ne quorum adipisicing ab laborum quis sunt iudicem anim. 
-                Et arbitror firmissimum, hic incurreret iis quibusdam.
               </p>
+              <br/>
+              <div id="headshot">
+                <Img fluid={data.headshot.childImageSharp.fluid} />
+              </div>
+              <h1 id="greeting">
+                *<br/><br/>
+                <strong>Brittani Bailey</strong>, Transaction Coordinator
+                <br/><br/>*
+              </h1>
+              <p style={{textAlign: `left`}}>
+                Brittani's love for Real Estate began during her childhood. As she grew older, she realized 
+                that she should turn that love of Real Estate, into a career. Brittani began working as a Real 
+                Estate Assistant and Transaction Coordinator in early 2014. In 2018, she decided to go through 
+                Real Estate School in Arizona to further her education and better her skills in the Real Estate 
+                industry. Additionally, Brittani is very organized and disciplined when it comes to providing the 
+                best care and ensuring that her clients receive the best standard of customer service.
+                <br/><br/>
+                When Brittani is not working, she loves spending time with her 3 young children and husband. She also loves traveling. 
+              </p>
+              <br/>
               <Link to={'/services'}>
                 <div className="nav-button">learn more about services</div>
               </Link>

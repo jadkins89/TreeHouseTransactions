@@ -100,16 +100,25 @@
   }
 }
 
+#desc-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #desc-box {
   border-style: solid;
   border-color: #00aba9;
   height: 160px;
-  line-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 350px;
+  margin-top: 10px;
   margin-right: 40px;
   margin-bottom: 40px;
   font-family: Source Sans Pro;
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: 2px;
   font-variant-caps: all-small-caps;
   font-weight: bold;
@@ -122,11 +131,6 @@
   height: auto;
   width: 420px;
   margin-bottom: 10px;
-}
-
-#desc-box, #desc-text {
-  display: inline-block;
-  vertical-align: middle;
 }
 
 @media (max-width: 600px) {

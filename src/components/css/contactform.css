@@ -31,9 +31,8 @@
 .contact100-form-title {
   display: block;
   width: 100%;
-  font-family: Poppins-Bold;
-  font-size: 24px;
-  color: #00aba9;
+  font-family: Source Sans Pro;
+  font-size: 26px;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 44px;
@@ -47,11 +46,16 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  font-variant-caps: small-caps;
   font-family: Source Sans Pro;
   font-size: 28px;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
   position: relative;
   margin: 0 auto;
+}
+
+.tagline {
+  letter-spacing: 2px;
 }
 
 .content-contact-info, .content-contact-info:hover {
@@ -201,20 +205,9 @@ textarea.input100 {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-
-  /* box-shadow: 0 10px 30px 0px #00aba9;
-  -moz-box-shadow: 0 10px 30px 0px #00aba9;
-  -webkit-box-shadow: 0 10px 30px 0px #00aba9;
-  -o-box-shadow: 0 10px 30px 0px #00aba9;
-  -ms-box-shadow: 0 10px 30px 0px #00aba9; */
 }
 
 .contact100-form-btn:hover {
   background-color: rgba(46, 49, 49, 0.9);
   border-color: rgba(46, 49, 49, 0.9);
-  /* box-shadow: 0 10px 30px 0px rgba(46, 49, 49, 0.5);
-  -moz-box-shadow: 0 10px 30px 0px rgba(46, 49, 49, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(46, 49, 49, 0.5);
-  -o-box-shadow: 0 10px 30px 0px rgba(46, 49, 49, 0.5);
-  -ms-box-shadow: 0 10px 30px 0px rgba(46, 49, 49, 0.5); */
 }
