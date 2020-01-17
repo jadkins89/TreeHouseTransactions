@@ -9,7 +9,7 @@ const Services = () => (
   <StaticQuery
     query={graphql`
       query {
-        background: file(relativePath: { eq: "sanfran-houses.jpeg" }) {
+        background: file(relativePath: { eq: "blossom-plant.jpg" }) {
           childImageSharp {
             fluid(quality: 30) {
               ...GatsbyImageSharpFluid

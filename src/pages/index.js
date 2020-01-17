@@ -25,14 +25,14 @@ const IndexPage = () => (
             }
           }
         }
-        services: file(relativePath: { eq: "sanfran-houses.jpeg" }) {
+        services: file(relativePath: { eq: "blossom-plant.jpg" }) {
           childImageSharp {
             fluid(quality: 20) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        reviews: file(relativePath: { eq: "leaves.jpg" }) {
+        reviews: file(relativePath: { eq: "leaf-flower.jpg" }) {
           childImageSharp {
             fluid(quality: 20) {
               ...GatsbyImageSharpFluid

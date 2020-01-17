@@ -11,7 +11,7 @@ const Reviews = () => (
   <StaticQuery
     query={graphql`
       query {
-        background: file(relativePath: { eq: "leaves.jpg" }) {
+        background: file(relativePath: { eq: "leaf-flower.jpg" }) {
           childImageSharp {
             fluid(quality: 30) {
               ...GatsbyImageSharpFluid
