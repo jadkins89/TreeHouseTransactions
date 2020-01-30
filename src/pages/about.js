@@ -11,7 +11,14 @@ const About = () => (
   <StaticQuery
     query={graphql`
       query {
-        headshot: file(relativePath: { eq: "headshot.png" }) {
+        headshot1: file(relativePath: { eq: "headshot.png" }) {
+          childImageSharp {
+            fluid(quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        headshot2: file(relativePath: { eq: "bugs.jpeg" }) {
           childImageSharp {
             fluid(quality: 100) {
               ...GatsbyImageSharpFluid
@@ -45,7 +52,7 @@ const About = () => (
               <div className="about-content">
                 <div className="greeting-container">
                   <div id="headshot">
-                    <Img fluid={data.headshot.childImageSharp.fluid} />
+                    <Img fluid={data.headshot1.childImageSharp.fluid} />
                   </div>
                   <span id="greeting">
                     *<br/>
@@ -72,7 +79,7 @@ const About = () => (
               <div className="about-content">
                 <div className="greeting-container">
                   <div id="headshot">
-                    <Img fluid={data.headshot.childImageSharp.fluid} />
+                    <Img fluid={data.headshot2.childImageSharp.fluid} />
                   </div>
                   <h2 id="greeting">
                     *<br/><br/>
