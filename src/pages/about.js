@@ -18,20 +18,6 @@ const About = () => (
             }
           }
         }
-        headshot2: file(relativePath: { eq: "bugs.jpeg" }) {
-          childImageSharp {
-            fluid(quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        background: file(relativePath: { eq: "blue_door.jpg" }) {
-          childImageSharp {
-            fluid(quality: 30) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         background: file(relativePath: { eq: "blue_door.jpg" }) {
           childImageSharp {
             fluid(quality: 30) {
@@ -76,7 +62,7 @@ const About = () => (
                 </div>
                 <p style={{textAlign: `left`}}>
                   Welcome to Treehouse Transactions, I’m the owner and lead Transaction Coordinator.
-                  Coming from a background in Social Work, I was looking for a change and made the leap and became a Licensed Realtor.
+                  Coming from a background in Social Work, I was looking for a change and made the leap to become a Licensed Realtor.
                   Working as an Agent was an incredible experience and there are many facets of the job that I loved and excelled at; client services, 
                   networking, and transaction coordination. Fate brought me to the TC business when my husband was relocated for work and I suddenly 
                   needed a mobile job. What began out of desperation has grown into and incredible business. I understand your needs, and can focus on 
