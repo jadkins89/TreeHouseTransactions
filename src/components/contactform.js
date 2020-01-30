@@ -48,6 +48,7 @@ const ContactForm = () => (
         <button className="contact100-form-btn">
           <span>Submit</span>
         </button>
+        <span>Business Hours: M-F 9am - 5pm PT - Closed major holidays</span>
       </div>
     </form>
   </div>

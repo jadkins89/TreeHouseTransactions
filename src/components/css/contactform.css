@@ -172,13 +172,15 @@ textarea.input100 {
 /*------------------------------------------------------------------
 [ Button ]*/
 .container-contact100-form-btn {
-  width: calc(80% + 20px);
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   margin-top: -25px;
 }
 
@@ -205,6 +207,12 @@ textarea.input100 {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
+}
+
+@media (max-width: 700px) {
+  .contact100-form-btn {
+    margin-right: 10px;
+  }
 }
 
 .contact100-form-btn:hover {
