@@ -76,15 +76,13 @@ const About = () => (
                 </div>
                 <p style={{textAlign: `left`}}>
                   Welcome to Treehouse Transactions, I’m the owner and lead Transaction Coordinator.
-                  To give you a bit of my background I have a degree in Social Work and am a Licensed Realtor. 
-                  I have always had an interest in the business and was ready for a change, so a while back I made the leap and got my license. 
-                  Working as a Realtor was an incredible experience and there are many facets of the job that I love and excel at; client services, 
-                  networking, transaction coordination, but I have also learned that I am not suited to a sales position.  Fate brought me to the 
-                  TC business when my husband was relocated for work and I suddenly needed a mobile job. What began out of desperation has grown 
-                  into and incredible business. I understand your needs, and can focus on my undeniable strengths, helping others achieve their 
-                  goals with my support and assistance. I tend to be a bit of a perfectionist, have trouble relaxing, and a bit of a coffee addiction, 
-                  but while these traits could be a hindrance, I find they are perfectly suited to this business. I will make sure everything is taken 
-                  care of, so you are free to focus on your clients and the next transaction.
+                  Coming from a background in Social Work, I was looking for a change and made the leap and became a Licensed Realtor.
+                  Working as an Agent was an incredible experience and there are many facets of the job that I loved and excelled at; client services, 
+                  networking, and transaction coordination. Fate brought me to the TC business when my husband was relocated for work and I suddenly 
+                  needed a mobile job. What began out of desperation has grown into and incredible business. I understand your needs, and can focus on 
+                  my undeniable strengths, helping others achieve their goals with my support and assistance. I tend to be a bit of a perfectionist, have 
+                  trouble relaxing, and a coffee addiction, but while these traits could be a hindrance, I find they are perfectly suited to this business. 
+                  I will make sure everything is taken care of, so you are free to focus on your clients and the next transaction.
                   <br/><br/>
                   When I’m not working, you can find me at an SF Giants game, hiking the CA hills, wine tasting, traveling or just hanging out at home 
                   with my husband, 16 year old cat, and favorite book. 
