@@ -32,6 +32,20 @@ const About = () => (
             }
           }
         }
+        background: file(relativePath: { eq: "blue_door.jpg" }) {
+          childImageSharp {
+            fluid(quality: 30) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        leaf: file(relativePath: { eq: "leaf.png" }) {
+          childImageSharp {
+            fluid(quality: 30) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => (
@@ -51,11 +65,12 @@ const About = () => (
               <div className="about-content">
                 <div className="greeting-container">
                   <div id="headshot">
-                    <Img fluid={data.headshot1.childImageSharp.fluid} />
+                    <Img fluid={data.leaf.childImageSharp.fluid} />
                   </div>
                   <span id="greeting">
                     *<br/>
-                    <strong>Deena Adkins</strong>, Transaction Coordinator
+                    <strong>Deena Adkins</strong>
+                  <br/>Transaction Coordinator
                     <br/>*
                   </span>
                 </div>
@@ -72,17 +87,18 @@ const About = () => (
                   care of, so you are free to focus on your clients and the next transaction.
                   <br/><br/>
                   When I’m not working, you can find me at an SF Giants game, hiking the CA hills, wine tasting, traveling or just hanging out at home 
-                  with my husband and 16 year old cat and favorite book. 
+                  with my husband, 16 year old cat, and favorite book. 
                 </p>
               </div>
               <div className="about-content">
                 <div className="greeting-container">
                   <div id="headshot">
-                    <Img fluid={data.headshot2.childImageSharp.fluid} />
+                    <Img fluid={data.leaf.childImageSharp.fluid} />
                   </div>
                   <h2 id="greeting">
                     *<br/><br/>
-                    <strong>Brittani Bailey</strong>, Assistant Transaction Coordinator
+                    <strong>Brittani Bailey</strong> 
+                    <br/>Assistant Transaction Coordinator
                     <br/><br/>*
                   </h2>
                 </div>
@@ -100,7 +116,7 @@ const About = () => (
               </div>
             </div>
             <Link to={'/services'}>
-              <div className="nav-button">learn more about services</div>
+              <div className="nav-button">learn more about our services</div>
             </Link>
           </div>
         </div>
