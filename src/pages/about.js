@@ -55,7 +55,7 @@ const About = () => (
                   </div>
                   <span id="greeting">
                     *<br/>
-                    <strong>Deena Adkins</strong>, Creator of <strong>TreeHouse Transactions</strong>
+                    <strong>Deena Adkins</strong>, Transaction Coordinator
                     <br/>*
                   </span>
                 </div>
@@ -82,7 +82,7 @@ const About = () => (
                   </div>
                   <h2 id="greeting">
                     *<br/><br/>
-                    <strong>Brittani Bailey</strong>, Transaction Coordinator
+                    <strong>Brittani Bailey</strong>, Assistant Transaction Coordinator
                     <br/><br/>*
                   </h2>
                 </div>

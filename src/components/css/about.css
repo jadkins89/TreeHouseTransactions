@@ -2,11 +2,10 @@
   flex: 0 0 45%;
   text-align: center;
   font-variant: small-caps;
-  color: #00aba9;
   font-style: italic;
   font-weight: lighter;
   font-family: serif;
-  font-size: 25px;
+  font-size: 35px;
   margin-bottom: 0;
   align-self: center;
 }
@@ -19,7 +18,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* align-items: center; */
   margin-bottom: 20px;
 }
 
@@ -34,12 +32,12 @@
   text-align: center;
 }
 
-@media (min-width: 1015px) {
+/* @media (min-width: 1015px) {
   .about-container {
     flex-direction: row;
   }
   .about-content {
     flex: 0 0 48%
   }
-}
+} */
 
