@@ -28,16 +28,6 @@
   justify-content: space-between;
 }
 
-.contact100-form-title {
-  display: block;
-  width: 100%;
-  font-family: Source Sans Pro;
-  font-size: 26px;
-  line-height: 1.2;
-  text-align: center;
-  padding-bottom: 44px;
-}
-
 .contact-info {
   width: calc((100% - 30px) / 2);
   padding-bottom: 13px;
