@@ -25,7 +25,6 @@ const Contact = () => (
         <BackgroundImage
           fluid={data.background.childImageSharp.fluid}
           className="jumbotron"
-          loading="eager"
         >
           <p className="banner">Contact</p>
         </BackgroundImage>

@@ -54,7 +54,6 @@ const IndexPage = () => (
         <BackgroundImage 
           fluid={data.index.childImageSharp.fluid}
           className="jumbotron jumbotron-fluid slide"
-          loading="eager"
         >
           <p className="slide-banner">"Until we can manage time, we can manage nothing else" ~ Peter Drucker</p>
         </BackgroundImage>

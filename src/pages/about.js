@@ -40,7 +40,6 @@ const About = () => (
         <BackgroundImage
           fluid={data.background.childImageSharp.fluid}
           className="jumbotron jumbotron-fluid"
-          loading="eager"
         >
           <p className="banner">About</p>
         </BackgroundImage>
