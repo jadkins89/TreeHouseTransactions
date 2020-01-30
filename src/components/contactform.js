@@ -10,9 +10,6 @@ const ContactForm = () => (
   <div className="container-contact100">
     <form className="contact100-form" name="contact" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
-      <span className="contact100-form-title">
-        Contact TreeHouse Transactions to find out how we can help you.
-      </span>
       <div className="contact-info tagline">
         <p>freedom from the paperwork</p>
       </div>

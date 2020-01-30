@@ -39,63 +39,63 @@ const About = () => (
         </BackgroundImage>
         <div className="content">
           <div className="content-interior">
-            <div id="about-content">
-              <div id="headshot">
-                <Img fluid={data.headshot.childImageSharp.fluid} />
+            <h1 className="service-title">Meet the Team</h1>
+            <hr style={{margin: `50px`}}/>
+            <div className="about-container">
+              <div className="about-content">
+                <div className="greeting-container">
+                  <div id="headshot">
+                    <Img fluid={data.headshot.childImageSharp.fluid} />
+                  </div>
+                  <span id="greeting">
+                    *<br/>
+                    <strong>Deena Adkins</strong>, Creator of <strong>TreeHouse Transactions</strong>
+                    <br/>*
+                  </span>
+                </div>
+                <p style={{textAlign: `left`}}>
+                  Welcome to Treehouse Transactions, I’m the owner and lead Transaction Coordinator.
+                  To give you a bit of my background I have a degree in Social Work and am a Licensed Realtor. 
+                  I have always had an interest in the business and was ready for a change, so a while back I made the leap and got my license. 
+                  Working as a Realtor was an incredible experience and there are many facets of the job that I love and excel at; client services, 
+                  networking, transaction coordination, but I have also learned that I am not suited to a sales position.  Fate brought me to the 
+                  TC business when my husband was relocated for work and I suddenly needed a mobile job. What began out of desperation has grown 
+                  into and incredible business. I understand your needs, and can focus on my undeniable strengths, helping others achieve their 
+                  goals with my support and assistance. I tend to be a bit of a perfectionist, have trouble relaxing, and a bit of a coffee addiction, 
+                  but while these traits could be a hindrance, I find they are perfectly suited to this business. I will make sure everything is taken 
+                  care of, so you are free to focus on your clients and the next transaction.
+                  <br/><br/>
+                  When I’m not working, you can find me at an SF Giants game, hiking the CA hills, wine tasting, traveling or just hanging out at home 
+                  with my husband and 16 year old cat and favorite book. 
+                </p>
               </div>
-              <h1 id="greeting">
-                *<br/><br/>
-                <strong>Deena Adkins</strong>, Creator of <strong>TreeHouse Transactions</strong>
-                <br/><br/>*
-              </h1>
-              <p style={{textAlign: `left`}}>
-                Sint voluptate ita instituendarum, si minim et dolor id ullamco sunt qui 
-                appellat cohaerescant, o si dolore pariatur. Ubi quae dolore summis commodo ab 
-                quo cillum tamen id quamquam. Singulis enim enim probant anim, ut veniam 
-                expetendis cohaerescant. Ut quid quid duis ullamco, ne anim quem veniam 
-                cernantur, incididunt philosophari e vidisse, veniam expetendis ne imitarentur, 
-                summis et consequat hic cillum qui ita in transferrem est o te quae irure sint 
-                ita iudicem legam arbitror.Nostrud adipisicing aut proident. Velit appellat ad 
-                pariatur se nescius transferrem sed officia non summis quo arbitror ut quid, 
-                dolore incurreret a consequat. Sed eram tractavissent, ita incididunt 
-                cohaerescant.
-                <br/><br/>
-                Se duis doctrina de irure litteris aut imitarentur. Ex commodo ut iudicem, 
-                voluptate an quid consequat hic ita labore ingeniis, aliquip anim iudicem. Ad et 
-                culpa noster quid.Ut ab malis mentitum aut officia velit se quamquam sempiternum 
-                et dolore eruditionem ullamco dolor incididunt non constias illum veniam 
-                doctrina velit. Aliqua ingeniis adipisicing ne eu sunt appellat, eram qui non 
-                fore expetendis ex probant consectetur sed consequat, o fugiat ad anim, do 
-                export aute magna appellat o veniam mentitum ab aute culpa, et hic aute 
-                ingeniis. An ea concursionibus non multos quamquam quo expetendis in excepteur 
-                nulla si consequat distinguantur ita a aliqua philosophari, cupidatat summis 
-                export deserunt legam, sed dolore do enim de hic cupidatat qui ingeniis iis 
-                officia elit mandaremus mandaremus.
-              </p>
-              <br/>
-              <div id="headshot">
-                <Img fluid={data.headshot.childImageSharp.fluid} />
+              <div className="about-content">
+                <div className="greeting-container">
+                  <div id="headshot">
+                    <Img fluid={data.headshot.childImageSharp.fluid} />
+                  </div>
+                  <h2 id="greeting">
+                    *<br/><br/>
+                    <strong>Brittani Bailey</strong>, Transaction Coordinator
+                    <br/><br/>*
+                  </h2>
+                </div>
+                <p style={{textAlign: `left`}}>
+                  Brittani's love for Real Estate began during her childhood. As she grew older, she realized 
+                  that she should turn that love of Real Estate, into a career. Brittani began working as a Real 
+                  Estate Assistant and Transaction Coordinator in early 2014. In 2018, she decided to go through 
+                  Real Estate School in Arizona to further her education and better her skills in the Real Estate 
+                  industry. Additionally, Brittani is very organized and disciplined when it comes to providing the 
+                  best care and ensuring that her clients receive the best standard of customer service.
+                  <br/><br/>
+                  When Brittani is not working, she loves spending time with her 3 young children and husband. She also loves traveling. 
+                </p>
+                <br/>
               </div>
-              <h1 id="greeting">
-                *<br/><br/>
-                <strong>Brittani Bailey</strong>, Transaction Coordinator
-                <br/><br/>*
-              </h1>
-              <p style={{textAlign: `left`}}>
-                Brittani's love for Real Estate began during her childhood. As she grew older, she realized 
-                that she should turn that love of Real Estate, into a career. Brittani began working as a Real 
-                Estate Assistant and Transaction Coordinator in early 2014. In 2018, she decided to go through 
-                Real Estate School in Arizona to further her education and better her skills in the Real Estate 
-                industry. Additionally, Brittani is very organized and disciplined when it comes to providing the 
-                best care and ensuring that her clients receive the best standard of customer service.
-                <br/><br/>
-                When Brittani is not working, she loves spending time with her 3 young children and husband. She also loves traveling. 
-              </p>
-              <br/>
-              <Link to={'/services'}>
-                <div className="nav-button">learn more about services</div>
-              </Link>
             </div>
+            <Link to={'/services'}>
+              <div className="nav-button">learn more about services</div>
+            </Link>
           </div>
         </div>
       </Layout>

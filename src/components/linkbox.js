@@ -21,8 +21,7 @@ const Linkbox = ({ title, description, fluid }) => (
 
 Linkbox.propTypes = {
   title: PropTypes.node.isRequired,
-  description: PropTypes.node.isRequired,
-  className: PropTypes.node.isRequired
+  description: PropTypes.node.isRequired
 }
 
 export default Linkbox

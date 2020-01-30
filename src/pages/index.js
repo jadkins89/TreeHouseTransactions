@@ -11,7 +11,7 @@ const IndexPage = () => (
   <StaticQuery
     query={graphql`
       query { 
-        index: file(relativePath: { eq: "bay.jpeg" }) {
+        index: file(relativePath: { eq: "blossom-plant.jpg" }) {
           childImageSharp {
             fluid(quality: 60) {
               ...GatsbyImageSharpFluid
@@ -25,7 +25,7 @@ const IndexPage = () => (
             }
           }
         }
-        services: file(relativePath: { eq: "blossom-plant.jpg" }) {
+        services: file(relativePath: { eq: "branches.jpg" }) {
           childImageSharp {
             fluid(quality: 20) {
               ...GatsbyImageSharpFluid
@@ -66,12 +66,11 @@ const IndexPage = () => (
               </div>
               <div id="desc-text">
                 <p>
-                  Want to take your business to the next level or just looking to get a bit more balance in your life. 
+                  Want to take your business to the next level or looking to perfect your work-life balance? 
                   We can help. The average agent spends hours managing documents and transaction timelines, when they 
-                  could be focusing on their clients and the next deal. Treehouse Transactions can help you grow your business 
-                  and regain your time. We manage all aspects from listing through closing. We become an integral part of your 
-                  team and are only paid when the contact closes, so we are equally invested in your success. Whether you do a 
-                  few deals a year or a month, we are here for you. Contact us today to discuss your needs and how we can help.
+                  should be focusing on their clients and the next deal. We manage all aspects from listing to closing. 
+                  As an integral part of your team we are invested in your success, whether you do a few deals a year or several 
+                  a month, we are here for you.
                 </p>
               </div>
             </div>
