@@ -63,6 +63,7 @@
 
 .linkedin-icon, .linkedin-icon-footer {
   max-height: 50px;
+  overflow: hidden;
   color: rgba(46, 49, 49, 1);
   transition: color 0.4s;
 }
