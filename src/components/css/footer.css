@@ -37,3 +37,17 @@
 #business-name {
   color: #00aba9;
 }
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .bottom-container .desktop {
+    display: none;
+  }
+  .bottom-container .mobile {
+    display: contents;
+    padding-right: 0px;
+  }
+}

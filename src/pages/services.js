@@ -102,7 +102,7 @@ const Services = () => (
               </p>
             </div>
             <Link to={'/contact'}>
-              <div className="nav-button">contact us</div>
+              <div className="nav-button">get in touch</div>
             </Link>
           </div>
         </div>
