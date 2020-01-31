@@ -99,9 +99,18 @@ const About = () => (
                 <br/>
               </div>
             </div>
+            <h1 className="service-title">Memberships and Certifications</h1>
+            <hr style={{margin: `50px`}}/>
+            <div id="certifications">
+              <p>Deena Adkins - DRE #01928140</p>
+              <p>CAR - Certified Transaction Coordinator</p>
+              <p>NARESP - National Association of Real Estate Support Professionals</p>
+              <p>National Association of Realtors</p>
+              <p>California Association of Realtors</p>
+            </div>
             <Link to={'/services'}>
-              <div className="nav-button">learn more about our services</div>
-            </Link>
+            <div className="nav-button">learn more about our services</div>
+          </Link>
           </div>
         </div>
       </Layout>
