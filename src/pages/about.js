@@ -65,7 +65,7 @@ const About = () => (
                   Coming from a background in Social Work, I was looking for a change and made the leap to become a Licensed Realtor.
                   Working as an Agent was an incredible experience and there are many facets of the job that I loved and excelled at; client services, 
                   networking, and transaction coordination. Fate brought me to the TC business when my husband was relocated for work and I suddenly 
-                  needed a mobile job. What began out of desperation has grown into and incredible business. I understand your needs, and can focus on 
+                  needed a mobile job. What began out of desperation has grown into an incredible business. I understand your needs, and can focus on 
                   my undeniable strengths, helping others achieve their goals with my support and assistance. I tend to be a bit of a perfectionist, have 
                   trouble relaxing, and a coffee addiction, but while these traits could be a hindrance, I find they are perfectly suited to this business. 
                   I will make sure everything is taken care of, so you are free to focus on your clients and the next transaction.
