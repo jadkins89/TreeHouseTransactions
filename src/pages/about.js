@@ -70,7 +70,7 @@ const About = () => (
                   trouble relaxing, and a coffee addiction, but while these traits could be a hindrance, I find they are perfectly suited to this business. 
                   I will make sure everything is taken care of, so you are free to focus on your clients and the next transaction.
                   <br/><br/>
-                  When I’m not working, you can find me at an SF Giants game, hiking the CA hills, wine tasting, traveling or just hanging out at home 
+                  When I’m not working, you can find me at a ball game, hiking, traveling or just hanging out at home 
                   with my husband, 16 year old cat, and favorite book. 
                 </p>
               </div>
