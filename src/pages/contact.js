@@ -21,7 +21,7 @@ const Contact = () => (
     `}
     render={data => (
       <Layout>
-        <SEO title="Contact" />
+        <SEO title="Contact" keywords={[`TreeHouse Transactions`, `Transaction Coordinator`, `Bay Area`, `TC`, `Deena`, `Adkins`]} />
         <BackgroundImage
           fluid={data.background.childImageSharp.fluid}
           className="jumbotron"

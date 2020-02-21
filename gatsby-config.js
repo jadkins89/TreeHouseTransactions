@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `TreeHouse Transactions`,
-    description: `Your one-stop shop for all your transaction coordinating needs in the Bay Area.`,
+    description: `TreeHouse Transactions is a Transaction Coordinator business covering the greater Bay Area.`,
     author: `Deena Adkins`
   },
   plugins: [

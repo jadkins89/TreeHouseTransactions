@@ -20,7 +20,7 @@ const Services = () => (
     `}
     render={data => (
       <Layout>
-        <SEO title="Services" />
+        <SEO title="Services" keywords={[`TreeHouse Transactions`, `Transaction Coordinator`, `Bay Area`, `TC`, `Deena`, `Adkins`]} />
         <BackgroundImage
           fluid={data.background.childImageSharp.fluid}
           className="jumbotron"

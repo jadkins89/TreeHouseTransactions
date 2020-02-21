@@ -50,7 +50,7 @@ const IndexPage = () => (
     `}
     render={data => (
       <Layout>
-        <SEO title="TreeHouse Transactions" keywords={[`Deena`, `Adkins`, `TreeHouse Transactions`, `Transaction Coordinator`]} />
+        <SEO title="TreeHouse Transactions" keywords={[`TreeHouse Transactions`, `Transaction Coordinator`, `Bay Area`, `TC`, `Deena`, `Adkins`]} />
         <BackgroundImage 
           fluid={data.index.childImageSharp.fluid}
           className="jumbotron jumbotron-fluid slide"
