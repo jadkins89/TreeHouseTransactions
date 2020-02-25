@@ -22,7 +22,7 @@ const Reviews = () => (
     `}
     render={data => (
       <Layout>
-        <SEO title="Reviews" keywords={[`TreeHouse Transactions`, `Transaction Coordinator`, `Bay Area`, `TC`, `Deena`, `Adkins`]} />
+        <SEO title="Reviews" keywords={[`TreeHouse`, `Transactions`, `Transaction`, `Coordinator`, `California`, `Bay Area`, `Arizona`, `Colorado`, `TC`, `Deena`, `Adkins`]} />
         <BackgroundImage
           fluid={data.background.childImageSharp.fluid}
           className="jumbotron"
