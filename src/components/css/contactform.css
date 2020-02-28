@@ -44,6 +44,10 @@
   margin: 0 auto;
 }
 
+social-container {
+  flex-direction: row;
+}
+
 .tagline {
   letter-spacing: 2px;
 }
@@ -61,14 +65,15 @@
   display: none;
 }
 
-.linkedin-icon, .linkedin-icon-footer {
+.social-icon, .icon-footer {
   max-height: 50px;
   overflow: hidden;
   color: rgba(46, 49, 49, 1);
   transition: color 0.4s;
+  padding-right: 15px;
 }
 
-.linkedin-icon:hover {
+.social-icon:hover {
   color: #00aba9;
 }
 
@@ -80,7 +85,7 @@
     display: contents;
     padding-right: 0px;
   }
-  .linkedin-icon, .linkedin-icon:hover {
+  .social-icon, .social-icon:hover {
     font-size: 36px;
     display:block;
   }

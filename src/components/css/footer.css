@@ -5,7 +5,11 @@
   line-height: 100px;
 }
 
-.linkedin-icon-footer:hover {
+.icon-footer {
+  padding-right: 15px;
+}
+
+.icon-footer:hover {
   color: white;
 }
 

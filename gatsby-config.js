@@ -2,7 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `TreeHouse Transactions`,
     description: `TreeHouse Transactions is a Transaction Coordinator business covering California, Arizona, and Colorado.`,
-    author: `Deena Adkins`
+    author: `Deena Adkins`,
+    url: `treehousetransactions.com`,
+    image: `${__dirname}/src/images/blossom-plant.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

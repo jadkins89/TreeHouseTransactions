@@ -19,6 +19,8 @@ function SEO({ description, lang, meta, keywords, title }) {
             title
             description
             author
+            url
+            image
           }
         }
       }
@@ -26,7 +28,9 @@ function SEO({ description, lang, meta, keywords, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const titleTemplate = title !== site.siteMetadata.title ? `%s | ${site.siteMetadata.title}` : `%s`;
+  const titleTemplate = title !== site.siteMetadata.title ? `%s | ${site.siteMetadata.title}` : `%s`
+  const url = site.siteMetadata.url
+  const image = site.siteMetadata.image
   return (
     <Helmet
       htmlAttributes={{
@@ -51,6 +55,14 @@ function SEO({ description, lang, meta, keywords, title }) {
           property: `og:type`,
           content: `website`,
         },
+        {
+          property: `og:url`,
+          content: url
+        },
+        {
+          property: `og:image`,
+          content: image
+        }
       ]
         .concat(
           keywords.length > 0
