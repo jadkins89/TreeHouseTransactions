@@ -5,16 +5,6 @@
   line-height: 100px;
 }
 
-.icon-footer {
-  padding-right: 15px;
-  max-height: 36px;
-  max-width: 36px;
-}
-
-.icon-footer:hover {
-  color: white;
-}
-
 .bottom-container {
   position: relative;
   bottom: 0;

@@ -65,22 +65,6 @@ social-container {
   display: none;
 }
 
-.social-icon {
-  max-height: 28px;
-  max-width: 28px;
-}
-
-.social-icon, .icon-footer {
-  overflow: hidden;
-  color: rgba(46, 49, 49, 1);
-  transition: color 0.4s;
-  padding-right: 15px;
-}
-
-.social-icon:hover {
-  color: #00aba9;
-}
-
 @media (max-width: 900px) {
   .content-contact-info {
     display: none;
