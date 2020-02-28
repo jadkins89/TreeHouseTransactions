@@ -7,6 +7,8 @@
 
 .icon-footer {
   padding-right: 15px;
+  max-height: 36px;
+  max-width: 36px;
 }
 
 .icon-footer:hover {

@@ -65,8 +65,12 @@ social-container {
   display: none;
 }
 
+.social-icon {
+  max-height: 28px;
+  max-width: 28px;
+}
+
 .social-icon, .icon-footer {
-  max-height: 50px;
   overflow: hidden;
   color: rgba(46, 49, 49, 1);
   transition: color 0.4s;
