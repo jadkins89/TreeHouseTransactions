@@ -1,4 +1,5 @@
 import './node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import './src/components/css/layout.css';
 import './src/components/css/general.css';
 import './src/components/css/header.css';
