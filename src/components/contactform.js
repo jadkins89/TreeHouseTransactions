@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 FontAwesomeIcon.config = {
   autoAddCss: false,
@@ -17,9 +17,6 @@ const ContactForm = () => (
         <a className="content-contact-info" href="mailto:tcteam@treehousetransactions.com">tcteam@treehousetransactions.com</a>
         <a className="content-contact-info-mobile" href="mailto:tcteam@treehousetransactions.com">contact us</a>
         <div className="social-container">
-          <a className="social-icon" href="https://www.facebook.com/TreehouseTransactions/">
-            <FontAwesomeIcon icon={faFacebook} size="1x" />
-          </a>
           <a className="social-icon" href="https://www.linkedin.com/in/deenaadkins/">
             <FontAwesomeIcon icon={faLinkedinIn} size="1x" />
           </a>

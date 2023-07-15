@@ -66,10 +66,10 @@ const IndexPage = () => (
               <div id="desc-text">
                 <p>
                   Want to take your business to the next level or looking to perfect your work-life balance? 
-                  We can help. The average agent spends hours managing documents and transaction timelines, when they 
-                  should be focusing on their clients and the next deal. We manage all aspects from listing to closing. 
-                  As an integral part of your team we are invested in your success, whether you do a few deals a year or several 
-                  a month, we are here for you.
+                  I can help. The average agent spends hours managing documents and transaction timelines, when they 
+                  should be focusing on their clients and the next deal. I manage all aspects from listing to closing. 
+                  As an integral part of your team I am invested in your success, whether you do a few deals a year or several 
+                  a month, I am here for you.
                 </p>
               </div>
             </div>
@@ -81,16 +81,16 @@ const IndexPage = () => (
               <div id="logo-box">
                 <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
               </div>
-              <Linkbox title="services" description="What we can do for you" fluid={data.services.childImageSharp.fluid} />
+              <Linkbox title="services" description="What I can do for you" fluid={data.services.childImageSharp.fluid} />
             </div>
             <div id="logo-box-regular">
-              <Linkbox title="services" description="What we can do for you" fluid={data.services.childImageSharp.fluid} />
+              <Linkbox title="services" description="What I can do for you" fluid={data.services.childImageSharp.fluid} />
               <div id="logo-box">
                 <img src={require("../images/treehouse-logo.png")} style={{height: `100%`, padding: `8px`}} alt="Business Logo" />
               </div>
             </div>
             <Linkbox title="reviews" description="What our clients have to say" fluid={data.reviews.childImageSharp.fluid} />
-            <Linkbox title="contact" description="Lets talk about how we can help" fluid={data.contact.childImageSharp.fluid} />
+            <Linkbox title="contact" description="Lets talk about how I can help" fluid={data.contact.childImageSharp.fluid} />
           </div>
         </div>
       </Layout>

@@ -1,11 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => (
   <div className="bottom-container">
     <div className="color-bar">
-      <a className="icon-footer" href="https://www.facebook.com/TreehouseTransactions/"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
       <a className="icon-footer" href="https://www.linkedin.com/in/deenaadkins/"><FontAwesomeIcon icon={faLinkedinIn} size="2x" /></a>
     </div>
     <div className="bottom-bar">

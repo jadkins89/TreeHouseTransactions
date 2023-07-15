@@ -29,7 +29,7 @@ const Contact = () => (
           <p className="banner">Contact</p>
         </BackgroundImage>
         <div className="content">
-          <h1 className="service-title">Find out how we can help you</h1>
+          <h1 className="service-title">Find out how I can help you</h1>
           <div className="content-interior">
             <ContactForm />
           </div>

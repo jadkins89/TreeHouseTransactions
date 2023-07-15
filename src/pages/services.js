@@ -68,7 +68,7 @@ const Services = () => (
                 <li>Order NHD report</li>
                 <li>Order 3R reports, if required</li>
                 <li>Order Sellers Coverage, if requested</li>
-                <li>Set up Seller Disclosure Packet in Discloures IO and Docusign</li>
+                <li>Set up Seller Disclosure Packet in Disclosures IO and Docusign</li>
                 <li>Send TDS/SPQ and Earthquake report if needed via Glide for easy client completion</li>
                 <li>Pull all documents, set up Seller Disclosure Packet, and send out via Docusign or set up for print if you need to sign in person</li>
                 <li>Set up Disclosures IO with full Disclosure Packet and provide link you can add to MLS</li>
@@ -87,7 +87,7 @@ const Services = () => (
                 <li>Send out weekly file status updates</li>
                 <li>Follow up on file review notices</li>
                 <li>Order Home Warranty</li>
-                <li>Keep track of all Tasks and Contigency Removal dates, sending advance reminders to you</li>
+                <li>Keep track of all Tasks and Contingency Removal dates, sending advance reminders to you</li>
                 <li>Confirm terms with title</li>
                 <li>Add Closing statement to file and send out at tax time upon request</li>
                 <li>Maintain complete file in our TC management program and add all emails at close</li>
@@ -95,10 +95,10 @@ const Services = () => (
               </ul>
               <h2 id="gettingStarted" className="service-content-title">Opening a New Transaction</h2>
               <p>
-                Opening a new transaction is super easy. Just send us your signed listing agreement or contract, 
-                along with the title information and client contact information (if not already in zipforms). We will confirm receipt 
+                Opening a new transaction is super easy. Just send your signed listing agreement or contract, 
+                along with the title information and client contact information (if not already in zipforms). I will confirm receipt 
                 and get everything started, as soon as possible. Normally that means same day, but could be the next 
-                morning depending on time of receipt. We look forward to becoming part of your team.
+                morning depending on time of receipt. I look forward to becoming part of your team.
               </p>
             </div>
             <Link to={'/contact'}>
