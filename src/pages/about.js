@@ -81,7 +81,7 @@ const About = () => (
               <p>CAR - Certified Transaction Coordinator</p>
               <p>National Association of Realtors</p>
               <p>California Association of Realtors</p>
-              <p>Coldwell Banker Reality - DRE #01908304z</p>
+              <p>Coldwell Banker Reality - DRE #01908304</p>
             </div>
             <Link to={'/services'}>
             <div className="nav-button">learn more about my services</div>
